@@ -12,6 +12,20 @@
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
+    <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
+    <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
+    <script>
+      VANTA.BIRDS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00
+      })
+    </script>
     <div class="row justify-content-left" style="margin: 2%;">
       <form action="/greet" method="GET" id="greetForm">
         <div>

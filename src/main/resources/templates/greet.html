@@ -39,12 +39,17 @@
         </form>
       </div>
 
-      <div class="calculator">
+      <div class="calculator-div">
         <form action="/greet" method="GET" id="calculatorForm">
-          <p>Square a Number:</p>
-          <input name="number" id="calculatorField">
-          <button>Calculate</button>
-          <p th:text="'Answer: ' + ${number}"></p>
+          <div class="calculator-form">
+            <p>Square a Number:</p>
+            <br />
+            <input name="number" id="calculatorField">
+            <br />
+            <button>Calculate</button>
+            <br />
+            <p th:text="'Answer: ' + ${number}"></p>
+          </div>
         </form>
       </div>
   </div>

@@ -5,6 +5,7 @@
 <head><div layout:fragment="metadata" th:remove="tag">
   <!-- Start of head content specific to page -->
   <title>Greet</title>
+  <link rel="stylesheet" type="text/css" href="/css/greet.css">
   <!-- End of head content specific to page -->
 </div></head>
 
@@ -12,9 +13,9 @@
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
     <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
-    <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
+    <script src="/static/vanta/vanta.rings.min.js" th:src="@{/vanta/vanta.rings.min.js}"></script>
     <script>
-      VANTA.BIRDS({
+      VANTA.RINGS({
         el: "body",
         mouseControls: true,
         touchControls: true,
@@ -22,9 +23,25 @@
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
-        scaleMobile: 1.00
+        scaleMobile: 1.00,
+        backgroundColor: 0x0,
+        color: 0xf1615
       })
     </script>
+<!--    <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>-->
+<!--    <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>-->
+<!--    <script>-->
+<!--      VANTA.BIRDS({-->
+<!--        el: "body",-->
+<!--        mouseControls: true,-->
+<!--        touchControls: true,-->
+<!--        gyroControls: false,-->
+<!--        minHeight: 200.00,-->
+<!--        minWidth: 200.00,-->
+<!--        scale: 1.00,-->
+<!--        scaleMobile: 1.00-->
+<!--      })-->
+<!--    </script>-->
       <div class="greet-content">
         <form action="/greet" method="GET" id="greetForm">
           <div class="greet-form">

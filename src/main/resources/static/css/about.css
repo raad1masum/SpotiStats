@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,900;1,100;1,200&display=swap');
+
 h1{
-    color: pink;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    size: 100px;
+}
+h2{
+    color: #c6dff7;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #F2F3F4;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;;
+    font-style: italic;
 }

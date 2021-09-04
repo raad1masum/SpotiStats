@@ -34,15 +34,15 @@ The overall idea of our project is an anonymous feedback system for Del Norte Hi
 | - | - | - |
 | Rishi Peddakama | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/3780df25b5cd5db276b8d24aff8b597dea7926ec), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Scrum master, managed tasks, worked on about page, created README |
 | Raadwan Masum | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/f885dcb38b314b8faf3c1e939024a31640660c07), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects), [Design](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1)  | Designer, created preliminary design on figma, worked on about page |
-| Arnav Palkhiwala | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/aeb2d018ab3cabd821b7b61e8c238955adc501c4), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Technical Lead, facilitated focus groups for brainstorming project ideas, worked on about page |
+| Arnav Palkhiwala | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/aeb2d018ab3cabd821b7b61e8c238955adc501c4), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Technical Lead, facilitated focus group for brainstorming project ideas, worked on about page |
 | Aman Jain | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/c0b48a637d332f9fb67a3624e18eb230cd9cf777), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Developer, worked on about page |
 
 1 minute video integrated into About Us on Genesis ideas for project. *NEED LINK*
 
 ## Individual Unit Journals
-| Name | Self-Grade | Link |
-| - | - | - |
-| Rishi Peddakama | 5/5 | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing)
-| Raadwan Masum | 5/5 | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing)
-| Arnav Palkhiwala | 5/5 | need arnavs journal
-| Aman Jain | 5/5 | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing)
+| Name | Self-Grade | Link | Other |
+| - | - | - | - |
+| Rishi Peddakama | 5/5 | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | Everything installed, will bring personal computer to school |
+| Raadwan Masum | 5/5 | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | Everything installed, will bring personal computer to school |
+| Arnav Palkhiwala | 5/5 | [Journal](https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit) | Everything installed, will bring personal computer to school |
+| Aman Jain | 5/5 | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing) | Everything installed, will bring personal computer to school |

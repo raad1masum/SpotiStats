@@ -44,5 +44,5 @@ The overall idea of our project is an anonymous feedback system for Del Norte Hi
 | - | - | - |
 | Rishi Peddakama | 5/5 | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing)
 | Raadwan Masum | 5/5 | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing)
-| Arnav Palkhiwala | 5/5 | need arnavs journal
+| Arnav Palkhiwala | 5/5 | [Journal] ("https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit?usp=sharing")
 | Aman Jain | 5/5 | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing)

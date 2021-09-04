@@ -27,7 +27,7 @@ The overall idea of our project is an anonymous feedback system for Del Norte Hi
 | Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | [Ideation](https://github.com/raad1masum/AP-CSA-Tri-1-Project#ideation) |
 | Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | Completed |
 | Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | [Completed](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/23b4cb4e77e37c3f1704bb52e7ee829a2d75f3c3) |
-| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | todo |
+| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | [Video](https://www.youtube.com/watch?v=DS3nnkHsSHk) |
 
 ## PBL Individual
 | Name | Links | Description |

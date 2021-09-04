@@ -2,9 +2,9 @@
 
 ## Table of Contents
 1. [Contributors](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)
-2. [PBL Team](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)
-3. [PBL Individual](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)
-4. [Individual Unit Journals](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)
+2. [PBL Team](https://github.com/raad1masum/AP-CSA-Tri-1-Project#pbl-team)
+3. [PBL Individual](https://github.com/raad1masum/AP-CSA-Tri-1-Project#pbl-individual)
+4. [Individual Unit Journals](https://github.com/raad1masum/AP-CSA-Tri-1-Project#individual-unit-journals)
 
 ## Contributors
 | Name | Github Profile |

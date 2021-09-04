@@ -18,7 +18,7 @@
 | Thing | Evidence |
 | - | - |
 | Scrum Master. Define tasks and place assignments to in-progress on the Scrum board. | todo |
-| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | [FigmaDesign](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1) |
+| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | [Figma Design](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1) |
 | Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | todo |
 | Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | todo |
 | Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | todo |

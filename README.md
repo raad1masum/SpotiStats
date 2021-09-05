@@ -41,7 +41,7 @@ Self-Grade: 3/3, came up with the idea, started designing, and managed scrum boa
 | Aman Jain | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/c0b48a637d332f9fb67a3624e18eb230cd9cf777), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Developer, worked on about page | 2/2 |
 
 ## Individual Unit Journals
-| Name | Link | Description | Self-Grade |
+| Name | Link | Description | Self-Grade + Justification |
 | - | - | - | - |
 | Rishi Peddakama | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 (Organized and contains everything from the week) |
 | Raadwan Masum | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 (Organized and contains everything from the week) |

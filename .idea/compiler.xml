@@ -9,6 +9,9 @@
         <module name="serving-web-content" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="serving-web-content" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

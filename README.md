@@ -22,15 +22,15 @@ The overall idea of our project is an anonymous feedback system for Del Norte Hi
 
 Self-Grade: 3/3, came up with the idea, started designing, and managed scrum board for organization.
 
-| Requirement | Evidence |
-| - | - |
-| Scrum Master. Define tasks and place assignments to in-progress on the Scrum board. | [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) |
-| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | [Figma Design](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1) |
-| Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | Completed |
-| Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | [Ideation](https://github.com/raad1masum/AP-CSA-Tri-1-Project#ideation) |
-| Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | Completed |
-| Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | [Completed](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/23b4cb4e77e37c3f1704bb52e7ee829a2d75f3c3) |
-| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | [Video](https://www.youtube.com/watch?v=DS3nnkHsSHk) |
+| Requirement | Evidence | Self-Grade | Justification |
+| - | - | - | - |
+| Scrum Master. Define tasks and place assignments to in-progress on the Scrum board. | [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | 3/3 | Came up with the idea, started designing, and managed scrum board for organization. |
+| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | [Figma Design](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1) | 3/3 | The wireframe contains useful information for the backbone of the project. Additionally, it is made in figma, an excellent design software that allows for easy changes; a feature that is crucial when changes to ideation are made in the future |
+| Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | Completed | 3/3 | Session was coordinated and helped on wireframe. Additionally aspects in spring such as input, data saving and output (through GET/POST requests) worked |
+| Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | [Ideation](https://github.com/raad1masum/AP-CSA-Tri-1-Project#ideation) | 3/3 | Crafted a short paragraph that explains the idea of the project without unecessary jargon. Easily understandable for others looking on the project.|
+| Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | Completed | 3/3 | Boostrap navbar now works after fixing the z-index value. It now works on the greet page without showing up under other html elements |
+| Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | [Completed](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/23b4cb4e77e37c3f1704bb52e7ee829a2d75f3c3) | 3/3 | The new greet page has the birds background (provided by vanta.js) and has 2 forms: a greet form, and a form that square numbers|
+| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | [Video](https://www.youtube.com/watch?v=DS3nnkHsSHk) | 3/3 | The video goes over the wireframe, changes to the website and overall thought process for the future of the project |
 
 ## PBL Individual
 | Name | Links | Description | Self-Grade | Justification|

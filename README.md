@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# CSA-Tri-1-Project
-Creators: Rishi Peddakama, Arnav Palkhiwala, Aman Jain, Raadwan Masum
-=======
 # CSA-Tri-1-Project: 🔴Red Team🔴 
 
 ## Table of Contents
@@ -50,4 +46,3 @@ The overall idea of our project is an anonymous feedback system for Del Norte Hi
 | Raadwan Masum | 5/5 | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | Everything installed, will bring personal computer to school |
 | Arnav Palkhiwala | 5/5 | [Journal](https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit) | Everything installed, will bring personal computer to school |
 | Aman Jain | 5/5 | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing) | Everything installed, will bring personal computer to school |
->>>>>>> 71d7da6... readme

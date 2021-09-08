@@ -5,46 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a310d391-16d2-41f0-917b-4daf2d185841" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/com/example/sping_portfolio/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/com/example/sping_portfolio/controllers/About.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/com/example/sping_portfolio/controllers/Birds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/java/com/example/sping_portfolio/controllers/Greet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/css/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/css/greet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/images/ncs_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/sanvipal_javaref.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/vanta/three.r119.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/vanta/vanta.birds.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/static/vanta/vanta.rings.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/birds.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/fragments/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/fragments/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/greet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/main/resources/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox/src/test/java/com/example/sping_portfolio/MainTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +47,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.sping_portfolio.test" />
+      <module name="serving-web-content" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +75,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Spring Boot.Unnamed" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,6 +92,8 @@
       <workItem from="1630796405251" duration="1263000" />
       <workItem from="1630894903692" duration="251000" />
       <workItem from="1630895310505" duration="12000" />
+      <workItem from="1631035836897" duration="3054000" />
+      <workItem from="1631119771104" duration="1291000" />
     </task>
     <servers />
   </component>

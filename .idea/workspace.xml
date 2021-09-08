@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a310d391-16d2-41f0-917b-4daf2d185841" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PastREADMES" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ps_re\IdeaProjects\AP-CSA-Tri-1-Project\PastREADMES" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.test">
     <configuration name="test" type="Application" factoryName="Application">
@@ -93,7 +100,7 @@
       <workItem from="1630894903692" duration="251000" />
       <workItem from="1630895310505" duration="12000" />
       <workItem from="1631035836897" duration="3054000" />
-      <workItem from="1631119771104" duration="1291000" />
+      <workItem from="1631119771104" duration="2111000" />
     </task>
     <servers />
   </component>

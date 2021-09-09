@@ -111,6 +111,17 @@
 <!-- <body> -->
 <div layout:fragment="content" th:with="bits=${bits}" th:remove="tag">
     <h1 class="text-center">Binary Math with Conversions</h1>
+    <center>
+    <form action="/binary" method="GET" id="binaryForm">
+      <div class="binary-form">
+        <p for="binaryField">How many bits would you like?</p>
+        <input name="bits" id="binaryField">
+        <br />
+        <button>Submit Binary</button>
+        <br />
+      </div>
+    </form>
+    </center>
     <div class="container">
       <div class="row justify-content-md-center">
 

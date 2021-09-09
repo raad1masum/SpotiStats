@@ -38,6 +38,8 @@
       document.getElementById('hexadecimal').innerHTML = parseInt(binary, 2).toString(16);
       // Decimal conversion
       document.getElementById('decimal').innerHTML = parseInt(binary, 2).toString();
+      let asciValue = parseInt(binary, 2);
+      document.getElementById('ascii').innerHTML = String.fromCharCode(asciValue);
     }
     //
     function decimal_2_base(decimal, base) {
@@ -77,7 +79,7 @@
       const binary = getBits();
       setConversions(binary);
     }
-    // add is positive integer, subtract is negative integer
+nary    // add is positive integer, subtract is negative integer
     function add(n) {
       let binary = getBits();
       // convert to decimal and do math
@@ -133,6 +135,7 @@
               <th>Octal</th>
               <th>Hexadecimal</th>
               <th>Decimal</th>
+              <th>ASCII</th>
               <th>Minus</th>
             </tr>
             <tr>
@@ -141,6 +144,7 @@
               <td id="octal">0</td>
               <td id="hexadecimal">0</td>
               <td id="decimal">0</td>
+              <td id="ascii">N/A</td>
               <td><button type="button" id="sub1" onclick="add(-1)">-1</button></td>
             </tr>
           </table>

@@ -1,11 +1,13 @@
 # CSA-Tri-1-Project: 🔴Red Team🔴 
 
+## Comments TODO
+README files from past weeks can be found here
+
 ## Table of Contents
 1. [Contributors](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)
 2. [Ideation](https://github.com/raad1masum/AP-CSA-Tri-1-Project#ideation)
-3. [PBL Team](https://github.com/raad1masum/AP-CSA-Tri-1-Project#pbl-team)
-4. [PBL Individual](https://github.com/raad1masum/AP-CSA-Tri-1-Project#pbl-individual)
-5. [Individual Unit Journals](https://github.com/raad1masum/AP-CSA-Tri-1-Project#individual-unit-journals)
+3. [Goals and Status]()
+4. [Individual Unit Journals](https://github.com/raad1masum/AP-CSA-Tri-1-Project#individual-unit-journals)
 
 ## Contributors
 | Name | Github Profile |
@@ -18,32 +20,19 @@
 ## Ideation
 The overall idea of our project is an anonymous feedback system for Del Norte High School. People will be able to post ideas and have students anonymously give their opinions on it. We hope that it becomes useful for teachers (for evaluating their lesson plans) and for ASB (when planning future events).
 
-## PBL Team
+## Goals and Status
+| Goal | Specifics | Evidence |
+| - | - | - |
+| Add to design | Add to the figma wireframe by adding additional screens (create, view, security) | proof|
+| Build nice UI | Create curvy layout | proof |
 
-Self-Grade: 3/3, came up with the idea, started designing, and managed scrum board for organization.
-
-| Requirement | Evidence |
-| - | - |
-| Scrum Master. Define tasks and place assignments to in-progress on the Scrum board. | [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) |
-| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | [Figma Design](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1) |
-| Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | Completed |
-| Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | [Ideation](https://github.com/raad1masum/AP-CSA-Tri-1-Project#ideation) |
-| Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | Completed |
-| Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | [Completed](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/23b4cb4e77e37c3f1704bb52e7ee829a2d75f3c3) |
-| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | [Video](https://www.youtube.com/watch?v=DS3nnkHsSHk) |
-
-## PBL Individual
-| Name | Links | Description/Justification | Self-Grade |
-| - | - | - | - |
-| Rishi Peddakama | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/3780df25b5cd5db276b8d24aff8b597dea7926ec), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Scrum master, managed tasks, worked on about page, created README | 2/2 |
-| Raadwan Masum | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/f885dcb38b314b8faf3c1e939024a31640660c07), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects), [Design](https://www.figma.com/file/Gwml5xTAfzebPmFUXSoqm4/AP-CSA-Project?node-id=0%3A1)  | Designer, created preliminary design on figma, worked on about page | 2/2 |
-| Arnav Palkhiwala | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/aeb2d018ab3cabd821b7b61e8c238955adc501c4), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Technical Lead, facilitated focus group for brainstorming project ideas, worked on about page | 2/2 |
-| Aman Jain | [Commit](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commit/c0b48a637d332f9fb67a3624e18eb230cd9cf777), [Scrum Board](https://github.com/raad1masum/AP-CSA-Tri-1-Project/projects) | Developer, worked on about page | 2/2 |
+## Resolved Issues (With tangible artifacts)
+| Issue | Developer | Specifics | Evidence | 
 
 ## Individual Unit Journals
-| Name | Link | Description | Self-Grade + Justification |
-| - | - | - | - |
-| Rishi Peddakama | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 (Organized and contains everything from the week) |
-| Raadwan Masum | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 (Organized and contains everything from the week) |
-| Arnav Palkhiwala | [Journal](https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit) | Everything installed, will bring personal computer to school | 5/5 (Organized and contains everything from the week) |
-| Aman Jain | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 (Organized and contains everything from the week) |
+| Name | Link | Description | Self-Grade | Justification |
+| - | - | - | - | - |
+| Rishi Peddakama | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 | Organized and contains everything from the week (including test corrections, AP notes, in class notes). |
+| Raadwan Masum | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 | Organized and contains everything from the week (including test corrections, AP notes, in class notes). |
+| Arnav Palkhiwala | [Journal](https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit) | Everything installed, will bring personal computer to school | 5/5 | Organized and contains everything from the week (including test corrections, AP notes, in class notes). |
+| Aman Jain | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing) | Everything installed, will bring personal computer to school | 5/5 | Organized and contains everything from the week (including test corrections, AP notes, in class notes). |

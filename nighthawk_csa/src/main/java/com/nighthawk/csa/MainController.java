@@ -34,7 +34,8 @@ public class MainController {
     }
 
     @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String binary() {
+    public String binary(@RequestParam(name="bits", required=false, defaultValue="8") int bits, Model model) {
+        model.addAttribute("bits", bits);   // MODEL is passed to html
         return "starters/binary";
     }
 

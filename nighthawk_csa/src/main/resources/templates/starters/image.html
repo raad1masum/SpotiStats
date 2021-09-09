@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Image Processing</title>
+    </div>
+</head>
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <div class="container">
+
+        <!-- Title -->
+        <div class="col-12" style="text-align: center;">
+            <h1><strong>Image Processing</strong></h1>
+        </div>
+
+        <p th:each="row: ${rows}" style="font-size: 20px; font-family: monospace; letter-spacing: .05rem;">
+            <span th:text="${row}"></span>
+        </p>
+        </div>
+
+<!--            <p th:text="${str}"  style="font-size: 20px; font-family: monospace; letter-spacing: .05rem; line-height: .7rem;" class="str"></p>-->
+
+    </div>
+</div>
+</body>
+
+</html>

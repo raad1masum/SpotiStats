@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PastREADMES" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nighthawk_csa" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -63,10 +63,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Spring Boot.Unnamed" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +79,7 @@
       <workItem from="1630896628534" duration="92000" />
       <workItem from="1631035625246" duration="116000" />
       <workItem from="1631136329191" duration="121000" />
+      <workItem from="1631206691347" duration="66000" />
     </task>
     <servers />
   </component>

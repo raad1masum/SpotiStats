@@ -14,10 +14,10 @@
 | Aman Jain | [@amanj31](https://github.com/amanj31) |
 
 ## PBL Team
-| Task | Description of what we did | Commits per person | Scrum Issue | Tangible Artifact (picture)
-| - | - | - | - | - |
-| Pair Design - HTML | add desc | add links | add link | add picture link |
-| Pair Prototyping - Thymeleaf | add desc | add links | add link | add picture link |
+| Task | Description of what we did | Commits per person | Scrum Issue (with tangible artifact) |
+| - | - | - | - |
+| Pair Design - HTML | add desc | add links | add link |
+| Pair Prototyping - Thymeleaf | add desc | add links | add link |
 
 ## Individual Unit Journals
 | Name | Link | Description |

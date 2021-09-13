@@ -1,0 +1,31 @@
+<!-- This page is illustrative and contains ideas about HTML formatting
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Project</title>
+        <link rel="stylesheet" type="text/css" href="/css/project.css">
+    </div>
+
+</head>
+
+<nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/python/">Python</a>
+</nav>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <h1 class=>Del Norte Feedback</h1>
+    <!-- End of body content specific to page -->
+    <br>
+    <p1>Provide Feedback About Anything Related to DNHS</p1>
+</div></body>
+
+</html> -->

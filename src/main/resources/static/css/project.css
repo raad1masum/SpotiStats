@@ -1,0 +1,22 @@
+body {
+  background-image: url("../images/background.png");
+}
+
+nav {
+  height: 100;
+}
+
+.blue {
+  color: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p1 {
+  color: #e2e2e2;
+  text-align: center;
+  font-size: 14px;
+}

@@ -9,5 +9,3 @@ public class test {
         System.out.println(team2.runPlay("hail mary"));
     }
 }
-
-n

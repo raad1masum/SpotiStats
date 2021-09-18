@@ -5,8 +5,8 @@
 1. [Contributors](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)
 2. [PBL Team](https://github.com/raad1masum/AP-CSA-Tri-1-Project#pbl-team)
 3. [Individual Unit Journals](https://github.com/raad1masum/AP-CSA-Tri-1-Project#individual-unit-journals)
-4. [New Video](https://www.loom.com/share/4f7abbda4f344b2ba69fad4586034dbf)This is the  video from this week.
-5. [Old Video](https://youtu.be/DS3nnkHsSHk)This is the  video from last week.
+4. [New Video](https://www.loom.com/share/4f7abbda4f344b2ba69fad4586034dbf) - This is the  video from this week.
+5. [Old Video](https://youtu.be/DS3nnkHsSHk) - This is the  video from last week.
 
 ## Contributors
 

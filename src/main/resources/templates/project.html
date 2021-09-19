@@ -11,12 +11,19 @@
     <div layout:fragment="metadata" th:remove="tag">
       <title>Project</title>
       <link rel="stylesheet" type="text/css" href="/css/project.css" />
+      <link rel="stylesheet" type="text/css" href="/css/nav.css" />
     </div>
   </head>
 
   <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
   <body>
     <div layout:fragment="content" th:remove="tag">
+      <nav class="">
+        <div class="nav-list" id="">
+          <a class="nav-item" href="/about">About</a>
+          <a class="nav-item" href="/project">Project</a>
+        </div>
+      </nav>
       <!-- Start of body content specific to page -->
       <div class="nav">
         <h1 class="title">Del Norte Feedback</h1>

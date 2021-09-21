@@ -7,28 +7,47 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import java.util.ArrayList;
 
 import java.util.Scanner;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class LoopsMinilab {
+    public int gcd(int a, int b) {
+        if (b==0) return a;
+        return gcd(b, a%b);
+    }
     @GetMapping("/loopsminilab")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String factorial(@RequestParam(required=false, defaultValue="World") String name, @RequestParam(required=false,
-            defaultValue="1") String number, Model model) {
-        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
-//        double outNumber = Double.parseDouble(number);
-//        System.out.println("number 1: " + outNumber + "name: " + name);
-//        outNumber = Math.pow(outNumber, 2);
-//        System.out.println("number 2: " + outNumber);
-//        model.addAttribute("name", name); // MODEL is passed to html
-//        model.addAttribute("number", outNumber); // MODEL is passed to html
-//        return "greet"; // returns HTML VIEW (greeting)
+            defaultValue="1") String factorialInput, @RequestParam(required=false, defaultValue="World") String name2, @RequestParam(required=false,
+            defaultValue="1") String yellowstoneInput, Model model) {
 
-        int answer=1;
-        int n= Integer.parseInt(number);
-        for(int i=1; i<=n; i++)answer*=i;
-        System.out.println("The factorial of " + n + " is " + answer);
-        model.addAttribute("factorial", answer);
+        int factorialAnswer=1;
+        int n= Integer.parseInt(factorialInput);
+        for(int i=1; i<=n; i++)factorialAnswer*=i;
+        System.out.println("The factorial of " + n + " is " + factorialAnswer);
+        model.addAttribute("factorial", factorialAnswer);
+
+        int yellowstoneAnswer=0;
+        ArrayList<Integer> yellowstone = new ArrayList<Integer>();
+        yellowstone.add(1);
+        yellowstone.add(2);
+        yellowstone.add(3);
+        for (int i = 3; i<Math.min(Integer.parseInt(yellowstoneInput), 20); i++){
+            for (int j = 4; j<100; j++) {
+                if (!yellowstone.contains(j)) {
+                    if ((gcd(j, yellowstone.get(i-2)) > 0) && (gcd(j, yellowstone.get(i-1)) == 1)) {
+                        yellowstone.add(j);
+                        break;
+                    }
+                }
+            }
+        }
+        for(int i=0; i<yellowstone.size(); i++){
+            System.out.print(yellowstone.get(i) + " ");
+        }
+
         return "loopsminilab";
+
     }
 }

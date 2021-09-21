@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a310d391-16d2-41f0-917b-4daf2d185841" name="Changes" comment="readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sping_portfolio/controllers/LoopsMinilab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sping_portfolio/controllers/LoopsMinilab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/loopsminilab.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/loopsminilab.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -17,7 +17,22 @@
                 <div class="calculator-form">
                     <p>Factorial:</p>
                     <br />
-                    <input name="number" id="calculatorField">
+                    <input name="factorialInput" id="calculatorField">
+                    <br />
+                    <button>Calculate</button>
+                    <br />
+                    <p th:text="'Answer: ' + ${factorial}"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="contact" style="height: 35vh;">
+        <div class="calculator-div">
+            <form action="/loopsminilab" method="GET" id="yellowstoneForm">
+                <div class="calculator-form">
+                    <p>Factorial:</p>
+                    <br />
+                    <input name="yellowstoneInput" id="yellowstoneField">
                     <br />
                     <button>Calculate</button>
                     <br />

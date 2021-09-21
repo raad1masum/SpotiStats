@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a310d391-16d2-41f0-917b-4daf2d185841" name="Changes" comment="readme">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/mini_labs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sping_portfolio/controllers/LoopsMinilab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sping_portfolio/controllers/LoopsMinilab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/loopsminilab.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/loopsminilab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/project.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +56,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ps_re\IdeaProjects\AP-CSA-Tri-1-Project\PastREADMES" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Unnamed">
-    <configuration name="minlab" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.example.sping_portfolio.minilab" />
-      <module name="serving-web-content" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.sping_portfolio.test" />
       <module name="serving-web-content" />
@@ -92,11 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.minlab" />
-      <item itemvalue="Spring Boot.Unnamed" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,21 +104,8 @@
       <workItem from="1631035836897" duration="3054000" />
       <workItem from="1631119771104" duration="2111000" />
       <workItem from="1631206691347" duration="66000" />
-      <workItem from="1631291571832" duration="1634000" />
-      <workItem from="1631552002073" duration="612000" />
-      <workItem from="1631641102802" duration="29000" />
-      <workItem from="1631726339385" duration="1007000" />
-      <workItem from="1631811784235" duration="152000" />
-      <workItem from="1632245524124" duration="937000" />
+      <workItem from="1631291571832" duration="905000" />
     </task>
-    <task id="LOCAL-00001" summary="readme">
-      <created>1631292629831</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1631292629831</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +122,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>

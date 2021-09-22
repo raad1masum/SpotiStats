@@ -35,8 +35,8 @@ public class LoopsMinilab {
         yellowstone.add(3);
         for (int i = 3; i<Math.min(Integer.parseInt(yellowstoneInput), 20); i++){
             for (int j = 4; j<100; j++) {
-                if (!yellowstone.contains(j)) {
-                    if ((gcd(j, yellowstone.get(i-2)) > 0) && (gcd(j, yellowstone.get(i-1)) == 1)) {
+                if (!(yellowstone.contains(j))) {
+                    if ((gcd(j, yellowstone.get(i-2)) > 1) && (gcd(j, yellowstone.get(i-1)) == 1)) {
                         yellowstone.add(j);
                         break;
                     }

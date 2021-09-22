@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import java.util.ArrayList;
 
-import java.util.Scanner;
-
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class LoopsMinilab {
     public int gcd(int a, int b) {
@@ -19,16 +17,17 @@ public class LoopsMinilab {
     }
     @GetMapping("/loopsminilab")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String factorial(@RequestParam(required=false, defaultValue="World") String name, @RequestParam(required=false,
-            defaultValue="1") String factorialInput, @RequestParam(required=false, defaultValue="World") String name2, @RequestParam(required=false,
-            defaultValue="1") String yellowstoneInput, Model model) {
-
+            defaultValue="0") String factorialInput, @RequestParam(required=false, defaultValue="5") String yellowstoneInput, Model model) {
+        
+        //factorial
         int factorialAnswer=1;
         int n= Integer.parseInt(factorialInput);
         for(int i=1; i<=n; i++)factorialAnswer*=i;
         System.out.println("The factorial of " + n + " is " + factorialAnswer);
         model.addAttribute("factorial", factorialAnswer);
 
-        int yellowstoneAnswer=0;
+        //yellowstone permutation
+        String yellowstoneAnswer="";
         ArrayList<Integer> yellowstone = new ArrayList<Integer>();
         yellowstone.add(1);
         yellowstone.add(2);
@@ -43,9 +42,8 @@ public class LoopsMinilab {
                 }
             }
         }
-        for(int i=0; i<yellowstone.size(); i++){
-            System.out.print(yellowstone.get(i) + " ");
-        }
+        for(int i=0; i<yellowstone.size(); i++)yellowstoneAnswer = yellowstoneAnswer + yellowstone.get(i) + " ";
+        model.addAttribute("yellowstone", yellowstoneAnswer);
 
         return "loopsminilab";
 

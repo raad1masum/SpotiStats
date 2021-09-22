@@ -13,11 +13,11 @@
     <!-- Start of body content specific to page -->
     <div class="contact" style="height: 35vh;">
         <div class="calculator-div">
-            <form action="/loopsminilab" method="GET" id="calculatorForm">
+            <form action="/loopsminilab" method="GET" id="factorialForm">
                 <div class="calculator-form">
                     <p>Factorial:</p>
                     <br />
-                    <input name="factorialInput" id="calculatorField">
+                    <input name="factorialInput" id="factorialField">
                     <br />
                     <button>Calculate</button>
                     <br />
@@ -25,18 +25,16 @@
                 </div>
             </form>
         </div>
-    </div>
-    <div class="contact" style="height: 35vh;">
         <div class="calculator-div">
             <form action="/loopsminilab" method="GET" id="yellowstoneForm">
                 <div class="calculator-form">
-                    <p>Factorial:</p>
+                    <p>Yellowstone Permutation:</p>
                     <br />
                     <input name="yellowstoneInput" id="yellowstoneField">
                     <br />
                     <button>Calculate</button>
                     <br />
-                    <p th:text="'Answer: ' + ${factorial}"></p>
+                    <p th:text="'Permutation: ' + ${yellowstone}"></p>
                 </div>
             </form>
         </div>

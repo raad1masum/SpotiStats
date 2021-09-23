@@ -16,7 +16,7 @@ public class LoopsMinilab {
         return gcd(b, a%b);
     }
     @GetMapping("/loopsminilab")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String factorial(@RequestParam(required=false, defaultValue="World") String name, @RequestParam(required=false,
+    public String LoopsBackend(@RequestParam(required=false, defaultValue="World") String name, @RequestParam(required=false,
             defaultValue="0") String factorialInput, @RequestParam(required=false, defaultValue="5") String yellowstoneInput, Model model) {
         
         //factorial

@@ -1,0 +1,47 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE html>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html
+  xmlns:layout="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.w3.org/1999/xhtml"
+  layout:decorate="~{layout}"
+  lang="en"
+>
+  <head>
+    <div layout:fragment="metadata" th:remove="tag">
+      <title>About</title>
+      <link rel="stylesheet" type="text/css" href="/css/about.css" />
+    </div>
+  </head>
+
+  <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+  <body>
+    <div layout:fragment="content" th:remove="tag">
+      <!-- Start of body content specific to page -->
+      <div id="spring_intro" class="articles" style="margin: 30px">
+        <h1>About</h1>
+        <div>
+          <h2>Raadwan Masum</h2>
+          <p>Explaining the world around me using science and technology</p>
+          <h2>Arnav Palkhiwala</h2>
+          <p>
+            I enjoy programming, and I am committed to making new projects that
+            can benefit others around me.
+          </p>
+          <h2>Aman Jain</h2>
+          <p>
+            Aman Jain is our fourth and final team member, and frankly the most
+            important.
+          </p>
+          <h2>Rishi Peddakama</h2>
+          <p>
+            Computer science enthusiast that loves to use my skills to help the
+            world
+          </p>
+        </div>
+      </div>
+
+      <!-- End of body content specific to page -->
+    </div>
+  </body>
+</html>

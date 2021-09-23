@@ -7,6 +7,10 @@ nav {
   float: right;
 }
 
+.test {
+  color: pink;
+}
+
 .nav-item {
   font-size: 25px;
   color: white;

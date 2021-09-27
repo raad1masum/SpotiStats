@@ -2,6 +2,11 @@
 
 ## READMEs from previous weeks
 
+- [Week 1-2](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/PastREADMES/Week1-2.md)
+- [Week 2 Pop Quiz](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/PastREADMES/PopQuiz.md)
+- [Week 3](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/PastREADMES/Week3.md)
+- [Week 4](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/PastREADMES/Week4.md)
+
 ## Table of Contents
 
 1. [Contributors](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)

@@ -1,7 +1,5 @@
 # CSA-Tri-1-Project: 🔴Red Team🔴
 
-## READMEs from previous weeks
-
 ## Table of Contents
 
 1. [Contributors](https://github.com/raad1masum/AP-CSA-Tri-1-Project#contributors)

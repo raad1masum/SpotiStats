@@ -29,7 +29,9 @@ public class EulersTotientController {
         //nth is fibonacci request
         int nth = Integer.parseInt(fibseq);
 
-        //MODEL attributes are passed back html
+        System.out.println("Sequence: " + fibseq);
+        fibInit(nth).get(0).print();
+
         model.addAttribute("fibList", fibInit(nth));
 
         return "algorithm/eulers"; //HTML render fibonacci results

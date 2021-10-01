@@ -77,6 +77,14 @@ public abstract class _EulersTotient {
         return hash.get(i);
     }
 
+    public Object getList() {
+        return this.list;
+    }
+
+    public Object getHash() {
+        return this.hash;
+    }
+
     /*
      Console/Terminal supported print method
      */
@@ -84,8 +92,8 @@ public abstract class _EulersTotient {
         ConsoleMethods.println("Init method = " + this.name);
         ConsoleMethods.println("Init time = " + this.getTimeElapsed());
         ConsoleMethods.println("Fibonacci Number " + this.size + " = " + this.getNth());
-        // ConsoleMethods.println("Fibonacci List = " + this.getList());
-        // ConsoleMethods.println("Fibonacci Hashmap = " + this.getHash());
+        ConsoleMethods.println("Fibonacci List = " + this.getList());
+        ConsoleMethods.println("Fibonacci Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {
             ConsoleMethods.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }

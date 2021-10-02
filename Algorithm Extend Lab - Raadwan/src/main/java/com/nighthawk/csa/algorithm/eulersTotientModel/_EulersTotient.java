@@ -92,7 +92,7 @@ public abstract class _EulersTotient {
         ConsoleMethods.println("Init method = " + this.name);
         ConsoleMethods.println("Init time = " + this.getTimeElapsed());
         ConsoleMethods.println("Euler's Number " + this.size);
-        ConsoleMethods.println("Euler's Totient " + this.list.size());
+        ConsoleMethods.println("Euler's Phi " + this.list.size());
         ConsoleMethods.println("Euler's List = " + this.getList());
         ConsoleMethods.println("Euler's Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {

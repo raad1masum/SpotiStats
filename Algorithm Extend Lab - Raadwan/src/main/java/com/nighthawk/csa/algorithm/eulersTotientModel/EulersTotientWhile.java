@@ -8,6 +8,11 @@ public class EulersTotientWhile extends _EulersTotient {
         super(nth);
     }
 
+    public long gcd(long a, long b) {
+        if (b == 0) return a;
+        return gcd(b , a % b);
+    }
+
     /*
     Abstract Polymorphic "init()" method using While
     */
@@ -16,10 +21,12 @@ public class EulersTotientWhile extends _EulersTotient {
         super.name = "While";
         // longer and more error prone "while" syntax is often best performer in this small scale test
         long limit = super.size;
-        long[] f = new long[]{0, 1};
-        while (limit-- > 0) {
-            super.setData(f[0]);
-            f = new long[]{f[1], f[0] + f[1]};
+
+        int i = 1;
+        while (i < limit) {
+            if (gcd(i, limit) == 1)
+                super.setData(i);
+            ++i;
         }
     }
 

@@ -31,6 +31,9 @@ public class EulersTotientController {
 
         System.out.println("Sequence: " + eulerseq);
         eulersInit(nth).get(0).print();
+        eulersInit(nth).get(1).print();
+        eulersInit(nth).get(2).print();
+        eulersInit(nth).get(3).print();
 
         model.addAttribute("eulersList", eulersInit(nth));
 

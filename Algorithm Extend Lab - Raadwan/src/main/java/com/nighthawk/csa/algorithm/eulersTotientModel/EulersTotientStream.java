@@ -25,10 +25,10 @@ public class EulersTotientStream extends _EulersTotient {
     }
 
     /*
-    Class method "main" with purpose of testing FibStream
+    Class method "main" with purpose of testing EulersTotientStream
      */
     public static void main(String[] args) {
-        _EulersTotient fibonacci = new EulersTotientStream();
-        fibonacci.print();
+        _EulersTotient eulers = new EulersTotientStream();
+        eulers.print();
     }
 }

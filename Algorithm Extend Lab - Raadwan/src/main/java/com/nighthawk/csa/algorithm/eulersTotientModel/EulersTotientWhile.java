@@ -24,10 +24,10 @@ public class EulersTotientWhile extends _EulersTotient {
     }
 
     /*
-    Class method "main" with purpose of testing FibWhile
+    Class method "main" with purpose of testing EulersTotientWhile
      */
     public static void main(String[] args) {
-        _EulersTotient fibonacci = new EulersTotientWhile();
-        fibonacci.print();
+        _EulersTotient eulers = new EulersTotientWhile();
+        eulers.print();
     }
 }

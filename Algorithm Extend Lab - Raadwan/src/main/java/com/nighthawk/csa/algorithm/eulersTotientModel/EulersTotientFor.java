@@ -20,10 +20,10 @@ public class EulersTotientFor extends _EulersTotient {
     }
 
     /*
-    Class method "main" with purpose of testing FibFor
+    Class method "main" with purpose of testing EulersTotientFor
      */
     public static void main(String[] args) {
-        _EulersTotient fibonacci = new EulersTotientFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
-        fibonacci.print();
+        _EulersTotient eulers = new EulersTotientFor(); // "EulersTotientFor" is used as initializer for the "_EulersTotient eulers"  object
+        eulers.print();
     }
 }

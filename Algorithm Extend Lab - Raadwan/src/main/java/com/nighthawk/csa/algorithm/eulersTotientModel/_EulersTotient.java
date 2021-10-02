@@ -27,7 +27,7 @@ public abstract class _EulersTotient {
     }
 
     /*
-     Construct the nth fibonacci number
+     Construct the nth euler's number
      @param: nth number, the value is constrained to 92 because of overflow in a long
      */
     public _EulersTotient(int nth) {
@@ -35,7 +35,7 @@ public abstract class _EulersTotient {
         this.list = new ArrayList<>();
         this.hashID = 0;
         this.hash = new HashMap<>();
-        //initialize fibonacci and time algorithm
+        //initialize euler's and time algorithm
         Instant start = Instant.now();  // time capture -- start
         this.init();
         Instant end = Instant.now();    // time capture -- end
@@ -43,13 +43,13 @@ public abstract class _EulersTotient {
     }
 
     /*
-     Method is abstract as init() requires extender to define their own Fibonacci algorithm
+     Method is abstract as init() requires extender to define their own Euler's Totient algorithm
      Method is protected as it is only authorized to someone who extends the class
      */
     protected abstract void init();
 
     /*
-     Number is added to Fibonacci sequence, current state of "list" is added to hash for hashID "num"
+     Number is added to Euler's sequence, current state of "list" is added to hash for hashID "num"
      */
     public void setData(long num) {
         list.add(num);
@@ -64,14 +64,14 @@ public abstract class _EulersTotient {
     }
 
     /*
-     Custom Getter to return last element in Fibonacci sequence
+     Custom Getter to return last element in Euler's sequence
      */
     public long getNth() {
         return list.get(size - 1);
     }
 
     /*
-     Custom Getter to return last Fibonacci sequence in HashMap
+     Custom Getter to return last Euler's sequence in HashMap
      */
     public Object getNthSeq(int i) {
         return hash.get(i);
@@ -91,11 +91,11 @@ public abstract class _EulersTotient {
     public void print() {
         ConsoleMethods.println("Init method = " + this.name);
         ConsoleMethods.println("Init time = " + this.getTimeElapsed());
-        ConsoleMethods.println("Fibonacci Number " + this.size + " = " + this.getNth());
-        ConsoleMethods.println("Fibonacci List = " + this.getList());
-        ConsoleMethods.println("Fibonacci Hashmap = " + this.getHash());
+        ConsoleMethods.println("Euler's Number " + this.size + " = " + this.getNth());
+        ConsoleMethods.println("Euler's List = " + this.getList());
+        ConsoleMethods.println("Euler's Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {
-            ConsoleMethods.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
+            ConsoleMethods.println("Euler's Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }
     }
 

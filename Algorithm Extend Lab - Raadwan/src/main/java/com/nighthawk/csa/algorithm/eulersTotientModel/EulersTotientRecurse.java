@@ -32,10 +32,10 @@ public class EulersTotientRecurse extends _EulersTotient {
     }
 
     /*
-    Class method "main" with purpose of testing FibRecurse
+    Class method "main" with purpose of testing EulersTotientRecurse
      */
     public static void main(String[] args) {
-        _EulersTotient fibonacci = new EulersTotientRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
-        fibonacci.print();
+        _EulersTotient eulers = new EulersTotientRecurse();  // "EulersTotientRecurse" is used as initializer for the "_EulersTotient eulers"  object
+        eulers.print();
     }
 }

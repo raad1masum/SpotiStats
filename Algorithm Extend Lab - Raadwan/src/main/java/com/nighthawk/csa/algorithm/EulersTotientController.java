@@ -12,29 +12,29 @@ import java.util.List;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class EulersTotientController {
 
-    public List<_EulersTotient> fibInit(int nth) {
-        //Fibonacci objects created with different initializers
-        List<_EulersTotient> fibList = new ArrayList<>();
-        fibList.add(new EulersTotientFor(nth));
-        fibList.add(new EulersTotientWhile(nth));
-        fibList.add(new EulersTotientRecurse(nth));
-        fibList.add(new EulersTotientStream(nth));
+    public List<_EulersTotient> eulersInit(int nth) {
+        //Eulers objects created with different initializers
+        List<_EulersTotient> eulersList = new ArrayList<>();
+        eulersList.add(new EulersTotientFor(nth));
+        eulersList.add(new EulersTotientWhile(nth));
+        eulersList.add(new EulersTotientRecurse(nth));
+        eulersList.add(new EulersTotientStream(nth));
 
-        return fibList;
+        return eulersList;
     }
 
     // GET request,, parameters are passed within the URI
     @GetMapping("/eulers")
-    public String fib(@RequestParam(name="fibseq", required=false,  defaultValue="2") String fibseq, Model model) {
-        //nth is fibonacci request
-        int nth = Integer.parseInt(fibseq);
+    public String eulers(@RequestParam(name="eulerseq", required=false,  defaultValue="2") String eulerseq, Model model) {
+        //nth is eulers request
+        int nth = Integer.parseInt(eulerseq);
 
-        System.out.println("Sequence: " + fibseq);
-        fibInit(nth).get(0).print();
+        System.out.println("Sequence: " + eulerseq);
+        eulersInit(nth).get(0).print();
 
-        model.addAttribute("fibList", fibInit(nth));
+        model.addAttribute("eulersList", eulersInit(nth));
 
-        return "algorithm/eulers"; //HTML render fibonacci results
+        return "algorithm/eulers"; //HTML render eulers results
 
     }
 
@@ -42,8 +42,8 @@ public class EulersTotientController {
     public static void main(String[] args) {
         int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
-        List<_EulersTotient> fibList = new EulersTotientController().fibInit(nth);
-        for (_EulersTotient fibonacci : fibList)
-            fibonacci.print();  //Console output fibonacci results
+        List<_EulersTotient> eulersList = new EulersTotientController().eulersInit(nth);
+        for (_EulersTotient eulers : eulersList)
+            eulers.print();  //Console output eulers results
     }
 }

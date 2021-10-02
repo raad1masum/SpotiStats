@@ -8,6 +8,11 @@ public class EulersTotientRecurse extends _EulersTotient {
         super(nth);
     }
 
+    public long gcd(long a, long b) {
+        if (b == 0) return a;
+        return gcd(b , a % b);
+    }
+
     /*
     Abstract Polymorphic "init()" method using Recursion
     */
@@ -16,19 +21,21 @@ public class EulersTotientRecurse extends _EulersTotient {
         //setup for recursion
         super.name = "Recursion";
         long limit = super.size;
-        long[] f = new long[]{0, 1};
-        initRecurse(limit,f);       // recursion is redirected
+        long i = 1;
+        // long[] f = new long[]{0, 1};
+        initRecurse(i, limit);       // recursion is redirected
     }
 
     /*
     Recursive methods contains an escape, in this  "base condition" with a limit
     VERY IMPORTANT... recursion requires pre-decrement, post-decrement will not occur until unstacking
      */
-    private void initRecurse(long limit, long[] f) {
-        if (limit == 0) return;                                 //exit condition
-        super.setData(f[0]);
-        // observe this syntax and function, many think of recursion as another way to do iteration
-        initRecurse(--limit, new long[]{f[1], f[0] + f[1]});
+    private void initRecurse(long i, long limit) {
+        if (i >= limit) return;
+
+        if (gcd(i, limit) == 1) super.setData(i);
+
+        initRecurse(++i, limit);
     }
 
     /*

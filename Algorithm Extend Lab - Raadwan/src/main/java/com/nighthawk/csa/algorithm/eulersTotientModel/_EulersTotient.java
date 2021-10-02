@@ -48,6 +48,10 @@ public abstract class _EulersTotient {
      */
     protected abstract void init();
 
+    public String getName() {
+        return this.name;
+    }
+
     /*
      Number is added to Euler's sequence, current state of "list" is added to hash for hashID "num"
      */
@@ -63,11 +67,19 @@ public abstract class _EulersTotient {
         return timeElapsed.getNano();
     }
 
+    public String getTimeElapsedString() {
+        return String.valueOf(timeElapsed.getNano());
+    }
+
     /*
      Custom Getter to return last element in Euler's sequence
      */
     public long getNth() {
         return list.get(size - 1);
+    }
+
+    public String getPhi() {
+        return String.valueOf(this.list.size());
     }
 
     /*
@@ -79,6 +91,10 @@ public abstract class _EulersTotient {
 
     public Object getList() {
         return this.list;
+    }
+
+    public Object getListString() {
+        return this.list.toString();
     }
 
     public Object getHash() {

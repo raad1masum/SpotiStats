@@ -38,15 +38,15 @@
                         <tr>
                             <th scope="col">Method</th>
                             <th scope="col">Time</th>
-                            <th scope="col">Number</th>
+                            <th scope="col">Phi Φ(N)</th>
                             <th scope="col">List</th>
                         </tr>
-                        <!-- <tr th:each="eulers : ${eulersList}">
+                        <tr th:each="eulers : ${eulersList}">
                             <td th:text="${eulers.getName()}"></td>
-                            <td th:text="${eulers.getTimeElapsed()}"></td>
-                            <td th:text="${eulers.getNth()}"></td>
-                            <td th:text="${eulers.getList()}"></td>
-                        </tr> -->
+                            <td th:text="${eulers.getTimeElapsedString()}"></td>
+                            <td th:text="${eulers.getPhi()}"></td>
+                            <td th:text="${eulers.getListString()}"></td>
+                        </tr>
                     </table>
                 </div>
             </div>

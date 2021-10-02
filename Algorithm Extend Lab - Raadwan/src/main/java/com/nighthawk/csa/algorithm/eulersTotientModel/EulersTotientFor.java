@@ -7,6 +7,11 @@ public class EulersTotientFor extends _EulersTotient {
         super(nth);
     }
 
+    public long gcd(long a, long b) {
+        if (b == 0) return a;
+        return gcd(b , a % b);
+    }
+
     /*
     Abstract Polymorphic "init()" method using For
      */
@@ -15,8 +20,9 @@ public class EulersTotientFor extends _EulersTotient {
         super.name = "For";
         long limit = super.size;
         // for loops are likely the most common iteration structure, all the looping facts are in one line
-        for (long[] f = new long[]{0, 1}; limit-- > 0; f = new long[]{f[1], f[0] + f[1]})
-            super.setData(f[0]);
+        for (long i = 1; i < limit; ++i)
+            if (gcd(i, limit) == 1)
+                super.setData(i);
     }
 
     /*

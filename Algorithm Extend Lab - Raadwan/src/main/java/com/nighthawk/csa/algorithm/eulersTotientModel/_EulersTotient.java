@@ -89,6 +89,10 @@ public abstract class _EulersTotient {
         return hash.get(i);
     }
 
+    public String getN() {
+        return String.valueOf(this.size);
+    }
+
     public Object getList() {
         return this.list;
     }

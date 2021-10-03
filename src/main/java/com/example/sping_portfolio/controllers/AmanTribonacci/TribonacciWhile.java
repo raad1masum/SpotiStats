@@ -4,19 +4,19 @@ public class TribonacciWhile extends TribonacciAbstract {
 
     public TribonacciWhile(String nth) {
         super(nth);
-        this.method = "for";
+        this.method = "while";
     }
 
-    private static int whileTribNth(int n) {
+    private static long whileTribNth(int n) {
         if (n == 0) {
             return 0;
         } else {
             int i = 0;
-            int a = 0;
-            int b = 0;
-            int c = 1;
+            long a = 0;
+            long b = 0;
+            long c = 1;
             while (i < n) {
-                int placeholder = 0;
+                long placeholder = 0;
                 placeholder = a + b + c;
                 a = b;
                 b = c;
@@ -30,11 +30,11 @@ public class TribonacciWhile extends TribonacciAbstract {
     }
 
     public void compute(){
-        long startTime = System.currentTimeMillis();
-        this.value = Integer.toString(whileTribNth(nth));
+        long startTime = System.nanoTime();
+        this.value = Long.toString(whileTribNth(nth));
         System.out.println("The answer is " + this.value);
-        long endTime = System.currentTimeMillis();
-        this.time = Long.toString(endTime-startTime);
+        long endTime = System.nanoTime();
+        this.time = Double.toString((endTime-startTime)/1e6);
     }
 
 }

@@ -28,13 +28,18 @@
                 <h2>
                     For loop, While loop, Recursion, and Dynamic Programming
                 </h2>
+                <h3>
+                    <em>
+                        Aman Jain, Period 2
+                    </em>
+                </h3>
             </div>
 
             <div class="jumbotron text-center row">
                 <!-- Input -->
                 <div class="col-md-6">
-                    <h3>Input (Desired Index)</h3>
-                    <form id="tribonacciform" action="/tribonacciMain" method="GET">
+                    <h3>Input (Desired term)</h3>
+                    <form id="tribonacciform" action="/tribonaccimain" method="GET">
                         <input
                                 name="nth"
                                 id="tribonacciNth"
@@ -42,18 +47,18 @@
                                 min="0"
                                 max="100000"
                         />
-                        <button>Evalulate</button>
+                        <button>Find the nth term</button>
                     </form>
                     <img class="" width=85% src="https://qph.fs.quoracdn.net/main-qimg-87d10eb33360766d181c498735e1cb3f" alt="">
                 </div>
                 <!-- Output/Result -->
                 <div class="col-md-6">
-                    <h3>Algorithm Comparison</h3>
+                    <h3>Comparing the algorithms and their speeds</h3>
                     <table class="mx-auto">
                         <tr>
                             <th scope="col">Method</th>
                             <th scope="col">Index</th>
-                            <th scope="col">Time</th>
+                            <th scope="col">Time (ms)</th>
                             <th scope="col">Value</th>
                         </tr>
                         <tr th:each="tribonacci: ${tribonacciList}">
@@ -66,21 +71,22 @@
                     <br />
                     <br />
                 </div>
+                <br>
                 <div>
                     <h3>Tribonacci Numbers</h3>
                         <p>
-                            The Tribonacci Sequence is similar to the well-known Fibonacci Sequence, but instead of the first two terms being 0 and 1, the first three terms are 0, 0, and 1. After this, each successive term is defined as the sum of the three terms preceding it.
+                            The Tribonacci Sequence is similar to the well-known Fibonacci Sequence, but instead of the first two terms being 0 and 1, the first three terms are 0, 0, and 1. After this, each successive term is defined as the sum of the three terms preceding it. The first few terms in the sequence are 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504, 927, 1705, 3136, 5768, 10609, 19513, 35890... which can be seen at <a href="http://oeis.org/A000073">this link (oeis.org)</a>.
                         </p>
                 </div>
 
             </div>
             <div class="col-12" style="text-align: left; ">
                 <a target="_black" href="https://github.com/raad1masum/AP-CSA-Tri-1-Project/tree/main/src/main/java/com/example/sping_portfolio/controllers/AmanTribonacci">Tribonacci Numbers Generator Code on Github</a>
-                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/PrimeRishi/PrimeAbstract.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/PrimeRishi/PrimeFor.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/PrimeRishi/PrimeWhile.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/PrimeRishi/PrimeSieve.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
-                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/PrimeRishi/PrimeRecursion.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/AmanTribonacci/TribonacciAbstract.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/AmanTribonacci/TribonacciWhile.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/AmanTribonacci/TribonacciFor.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/AmanTribonacci/TribonacciRecursion.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+                <script src="https://emgithub.com/embed.js?target=https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/controllers/AmanTribonacci/TribonacciDynamicProgramming.java%23L1-L35&style=monokai&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
             </div>
         </div>
     </div>
@@ -88,7 +94,7 @@
         table,
         td,
         th {
-            border: 1px solid var(--dblue);
+            border: 1px solid var(--lblue);
         }
         td,
         th {

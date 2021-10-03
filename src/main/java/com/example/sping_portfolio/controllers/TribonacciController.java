@@ -29,10 +29,10 @@ public class TribonacciController {
     public String tribonacciMain(@RequestParam(required=false,
             defaultValue="12") String nth, Model model) {
 
-        List<TribonacciAbstract> TribonacciList = TribonacciInit(nth);
-        for(TribonacciAbstract PL : TribonacciList)PL.compute();
+        List<TribonacciAbstract> tribonacciList = TribonacciInit(nth);
+        for(TribonacciAbstract PL : tribonacciList)PL.compute();
 
-        model.addAttribute("tribonaccilist", TribonacciList);
+        model.addAttribute("tribonacciList", tribonacciList);
 
         return "AmanTribonacci/tribonacciMain";
     }

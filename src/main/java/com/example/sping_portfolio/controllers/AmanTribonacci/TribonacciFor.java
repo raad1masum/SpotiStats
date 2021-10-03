@@ -7,15 +7,15 @@ public class TribonacciFor extends TribonacciAbstract {
         this.method = "for";
     }
 
-    private static int forTribNth(int n) {
+    private static long forTribNth(int n) {
         if (n == 0) {
             return 0;
         } else {
-            int a = 0;
-            int b = 0;
-            int c = 1;
+            long a = 0;
+            long b = 0;
+            long c = 1;
             for (int i = 0; i < n; i++) {
-                int placeholder = 0;
+                long placeholder = 0;
                 placeholder = a + b + c;
                 a = b;
                 b = c;
@@ -28,27 +28,10 @@ public class TribonacciFor extends TribonacciAbstract {
     }
 
     public void compute(){
-        long startTime = System.currentTimeMillis();
-        this.value = Integer.toString(forTribNth(nth));
+        long startTime = System.nanoTime();
+        this.value = Long.toString(forTribNth(nth));
         System.out.println("The answer is " + this.value);
-        long endTime = System.currentTimeMillis();
-        this.time = Long.toString(endTime-startTime);
+        long endTime = System.nanoTime();
+        this.time = Double.toString((endTime-startTime)/1e6);
     }
-//    public void compute() {
-//        long startTime = System.currentTimeMillis();
-//        int a = 0;
-//        int b = 0;
-//        int c = 0;
-//        int d = 0;
-//        for (int i = 0; i < this.nth; i++) {
-//            d = a + b + c;
-//            c = d;
-//            b = c;
-//            a = b;
-//        }
-//        System.out.println("The answer is " + a);
-//        this.value = Integer.toString(a);
-//        long endTime = System.currentTimeMillis();
-//        this.time = Long.toString(endTime-startTime);
-//    }
 }

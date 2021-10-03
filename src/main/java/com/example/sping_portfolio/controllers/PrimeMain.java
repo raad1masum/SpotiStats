@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.sping_portfolio.controllers.PrimeRishi.PrimeFor;
+import com.example.sping_portfolio.controllers.PrimeRishi.PrimeRecursion;
 import com.example.sping_portfolio.controllers.PrimeRishi.PrimeSieve;
 import com.example.sping_portfolio.controllers.PrimeRishi.PrimeWhile;
 import com.example.sping_portfolio.controllers.PrimeRishi.PrimeAbstract;
@@ -25,12 +26,13 @@ public class PrimeMain {
         ret.add(new PrimeFor(nth));
         ret.add(new PrimeWhile(nth));
         ret.add(new PrimeSieve(nth));
+        ret.add(new PrimeRecursion(nth));
         return ret;
     }
 
     @GetMapping("/primeMain")
     public String primeMain(@RequestParam(required=false,
-    defaultValue="3") String nth, Model model) {
+    defaultValue="20") String nth, Model model) {
 
         List<PrimeAbstract> primesList = PrimeInit(nth);
         for(PrimeAbstract PL : primesList)PL.compute();

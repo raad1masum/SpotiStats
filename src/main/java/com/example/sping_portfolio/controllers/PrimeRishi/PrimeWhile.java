@@ -31,11 +31,9 @@ public class PrimeWhile extends PrimeAbstract {
             i++;
         }
 
-        System.out.println("THE ANSWER IS " + primes.get(primes.size()-1));
+        // System.out.println("THE ANSWER IS " + primes.get(primes.size()-1));
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);
-        // System.out.println("TIME IS YO YO YO " + this.time + " " + startTime + " " + endTime);
         this.value = primes.get(primes.size()-1).toString();
-        // apply(, primes.get(primes.size()-1).toString());
     }
 }

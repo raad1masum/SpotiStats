@@ -13,10 +13,11 @@ public abstract class PrimeAbstract {
 
     public int validate(String inp){
         try {
-            return Integer.parseInt(inp);
+            return Math.min(Integer.parseInt(inp), 70000);
         }
         catch(Exception e) {
-            return 5;
+            // System.out.println(e.getMessage());
+            return 50;
         }
     }
 

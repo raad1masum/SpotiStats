@@ -14,7 +14,7 @@ public abstract class TribonacciAbstract {
 
     public int validate(String inp){
         try {
-            return Math.min(9999, Integer.parseInt(inp));
+            return Integer.parseInt(inp);
         }
         catch(Exception e) {
             return 1;
@@ -43,4 +43,4 @@ public abstract class TribonacciAbstract {
 
 }
 
-}
+

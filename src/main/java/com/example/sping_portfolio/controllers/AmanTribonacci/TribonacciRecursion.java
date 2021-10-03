@@ -19,6 +19,7 @@ public class TribonacciRecursion extends TribonacciAbstract {
     public void compute(){
         long startTime = System.currentTimeMillis();
         this.value = Integer.toString(tribonacciNth(nth));
+        System.out.println("The answer is " + this.value);
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);
     }

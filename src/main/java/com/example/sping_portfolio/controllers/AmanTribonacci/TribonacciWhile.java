@@ -1,32 +1,40 @@
 package com.example.sping_portfolio.controllers.AmanTribonacci;
 
-import java.util.ArrayList;
-
 public class TribonacciWhile extends TribonacciAbstract {
 
     public TribonacciWhile(String nth) {
         super(nth);
-        this.method = "while";
+        this.method = "for";
     }
 
-    public void compute() {
-        long startTime = System.currentTimeMillis();
-        int i = 0;
-        int a = 0;
-        int b = 0;
-        int c = 0;
-        int d = 0;
-        while (i < this.nth) {
-            d = a + b + c;
-            c = d;
-            b = c;
-            a = b;
-            i += 1;
+    private static int whileTribNth(int n) {
+        if (n == 0) {
+            return 0;
+        } else {
+            int i = 0;
+            int a = 0;
+            int b = 0;
+            int c = 1;
+            while (i < n) {
+                int placeholder = 0;
+                placeholder = a + b + c;
+                a = b;
+                b = c;
+                c = placeholder;
+                i++;
+            }
+            return a;
         }
-        System.out.println("The answer is " + a);
-        this.value = Integer.toString(a);
+
+
+    }
+
+    public void compute(){
+        long startTime = System.currentTimeMillis();
+        this.value = Integer.toString(whileTribNth(nth));
+        System.out.println("The answer is " + this.value);
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);
-
     }
+
 }

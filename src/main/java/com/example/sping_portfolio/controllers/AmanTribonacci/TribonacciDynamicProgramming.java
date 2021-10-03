@@ -27,6 +27,7 @@ public class TribonacciDynamicProgramming extends TribonacciAbstract {
     public void compute(){
         long startTime = System.currentTimeMillis();
         this.value = Integer.toString(dynamicTribonacciNth(nth));
+        System.out.println("The answer is " + this.value);
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);
     }

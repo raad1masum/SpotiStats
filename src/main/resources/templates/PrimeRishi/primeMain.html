@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html
+  xmlns:layout="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.w3.org/1999/xhtml"
+  layout:decorate="~{layout}"
+  lang="en"
+>
+  <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+  <head>
+    <div layout:fragment="metadata" th:remove="tag">
+      <title>Prime Numbers</title>
+    </div>
+  </head>
+
+  <body>
+    <div layout:fragment="content" th:remove="tag">
+      `
+      <div class="container">
+        <div
+          class="center-block"
+          style="margin: 2% 3% 3%; font-family: gilroy, serif"
+        >
+          <!-- Title -->
+          <div class="col-12" style="text-align: center">
+            <h1>
+              <strong>Prime Number Generator 4 Ways</strong>
+            </h1>
+          </div>
+
+          <!-- Form and Action -->
+          <div class="jumbotron text-center row">
+            <!-- Input -->
+            <div class="col-md-6">
+              <h3>Input bruh</h3>
+              <form id="primesform" action="/primeMain" method="GET">
+                <input
+                  name="nth"
+                  id="primeNth"
+                  type="number"
+                  min="1"
+                  max="30"
+                />
+                <button>Evalulate</button>
+              </form>
+            </div>
+            <!-- Output/Result -->
+            <div class="col-md-6">
+              <h3>Algorithm Comparison</h3>
+              <table class="mx-auto">
+                <tr>
+                  <th scope="col">Method</th>
+                  <th scope="col">Index</th>
+                  <th scope="col">Time</th>
+                  <th scope="col">Value</th>
+                </tr>
+                <tr th:each="primes: ${primesList}">
+                  <td th:text="${primes.getMethod()}"></td>
+                  <td th:text="${primes.getIndex()}"></td>
+                  <td th:text="${primes.getTime()}"></td>
+                  <td th:text="${primes.getValue()}"></td>
+                </tr>
+              </table>
+              <br />
+              <br />
+              <h3>What is Sieve of Eratosthenes?<h3>
+              <p>
+                In mathematics, the sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit.
+                It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first 
+                prime number, 2. The multiples of a given prime are generated as a sequence of numbers starting from that prime, with 
+                constant difference between them that is equal to that prime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        table,
+        td,
+        th {
+          border: 1px solid var(--dblue);
+        }
+        td,
+        th {
+          padding: 4px;
+          text-align: left;
+        }
+        p {
+          text-align: justify;
+          font-size: 20px;
+        }
+      </style>
+    </div>
+    `
+  </body>
+</html>

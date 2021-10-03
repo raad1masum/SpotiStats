@@ -10,6 +10,7 @@ public class PrimeFor extends PrimeAbstract {
     }
 
     public void compute() {
+        long startTime = System.currentTimeMillis();
         ArrayList<Integer> primes = new ArrayList<Integer>();
         primes.add(2);
 
@@ -25,6 +26,8 @@ public class PrimeFor extends PrimeAbstract {
         }
 
         System.out.println("THE ANSWER IS " + primes.get(primes.size()-1));
+        long endTime = System.currentTimeMillis();
+        this.time = Long.toString(endTime-startTime);
         this.value = primes.get(primes.size()-1).toString();
 
         // send to html: applychanges(html tag id)

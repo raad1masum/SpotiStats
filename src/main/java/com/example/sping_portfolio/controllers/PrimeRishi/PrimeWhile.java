@@ -11,6 +11,7 @@ public class PrimeWhile extends PrimeAbstract {
     }
 
     public void compute() {
+        long startTime = System.currentTimeMillis();
         ArrayList<Integer> primes = new ArrayList<Integer>();
         primes.add(2);
 
@@ -31,6 +32,9 @@ public class PrimeWhile extends PrimeAbstract {
         }
 
         System.out.println("THE ANSWER IS " + primes.get(primes.size()-1));
+        long endTime = System.currentTimeMillis();
+        this.time = Long.toString(endTime-startTime);
+        // System.out.println("TIME IS YO YO YO " + this.time + " " + startTime + " " + endTime);
         this.value = primes.get(primes.size()-1).toString();
         // apply(, primes.get(primes.size()-1).toString());
     }

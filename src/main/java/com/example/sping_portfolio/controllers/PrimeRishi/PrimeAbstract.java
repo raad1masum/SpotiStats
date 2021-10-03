@@ -29,11 +29,11 @@ public abstract class PrimeAbstract {
     } 
 
     public String getIndex(){
-        return Integer.toString(nth);
+        return Integer.toString(this.nth);
     }
 
     public String getTime(){
-        return time.toString();
+        return this.time;
     }
 
     public String getValue(){

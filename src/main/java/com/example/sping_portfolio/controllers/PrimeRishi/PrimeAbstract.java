@@ -5,6 +5,7 @@ public abstract class PrimeAbstract {
     int nth;
     String method;
     String value;
+    String time;
 
     public PrimeAbstract(String nth){
         this.nth = validate(nth);
@@ -32,7 +33,7 @@ public abstract class PrimeAbstract {
     }
 
     public String getTime(){
-        return "todo";
+        return time.toString();
     }
 
     public String getValue(){

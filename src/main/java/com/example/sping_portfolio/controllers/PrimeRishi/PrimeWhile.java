@@ -2,10 +2,6 @@ package com.example.sping_portfolio.controllers.PrimeRishi;
 
 import java.util.ArrayList;
 
-import com.example.sping_portfolio.controllers.PrimeRishi.PrimeAbstract;
-
-import org.springframework.ui.Model;
-
 
 public class PrimeWhile extends PrimeAbstract {
 

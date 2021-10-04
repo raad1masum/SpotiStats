@@ -27,10 +27,12 @@ public class multiplicationStream extends multiplicationClass {
 //                .forEach(i -> {
 //                    values2.add(values2.get(i-1) * 10);
 //                });
-
         for (int i = 1; i < values.length; i++){
             values[i] = 10 * values[i-1];
         }
+
+        Arrays.stream(values)
+                .forEach(i -> values[values.length-1] = values[values.length-1]);
 
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);

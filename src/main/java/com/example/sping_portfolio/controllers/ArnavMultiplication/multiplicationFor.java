@@ -8,7 +8,8 @@ public class multiplicationFor extends multiplicationClass{
         this.method = "for";
     }
 
-    public void compute(String inp) {
+    public void compute() {
+        String inp = Integer.toString(this.nth);
         long startTime = System.currentTimeMillis();
         int values[] = new int[Integer.parseInt(inp)];
         values[0] = 5;
@@ -17,6 +18,6 @@ public class multiplicationFor extends multiplicationClass{
         }
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);
-        this.value = values.toString();
+        this.value = Integer.toString(values[values.length-1]);
     }
 }

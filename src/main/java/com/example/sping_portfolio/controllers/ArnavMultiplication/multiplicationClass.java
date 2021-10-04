@@ -37,12 +37,12 @@ public abstract class multiplicationClass {
 
     public String getTime(){
 
-        return "0";
+        return this.time;
     }
 
     public String getValue(){
-
-        return "50000";
+        System.out.println("THIS IS VALUE " + this.value);
+        return this.value;
     }
 
 }

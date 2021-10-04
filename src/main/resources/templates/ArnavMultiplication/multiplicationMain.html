@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Arnav Palkhiwala - Multiplier Algorithm</title>
+    <link rel="stylesheet" type="text/css" href="/css/greet.css">
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+    `
+    <div class="container">
+        <div
+                class="center-block"
+                style="margin: 2% 3% 3%; font-family: gilroy, serif"
+        >
+            <!-- Title -->
+            <div style="text-align: center">
+                <h1 style="color: white; font-weight: bold;">
+                    Multiplication Algorithm - 4 Ways - Arnav Palkhiwala
+                </h1>
+                <break/>
+                <break/>
+                <break/>
+                <break/>
+                <p style = "color: lightgray; font-size: 18px;">This is a multiplication algorithm. It starts with an initial value of 5 and you can determine the number of times it is multiplied by 10. In the input below, type how many times you want this to be multiplied by 10!</p>
+            </div>
+
+            <div style="text-align: center;">
+                <break/>
+                <break/>
+                <h4 style="color: white;">How many times?</h4>
+                <form id="multiplicationform" action="/multiplicationMain" method="GET">
+                    <input
+                            name="nth"
+                            id="multiplicationNth"
+                            type="number"
+                            min="1"
+                    />
+                    <!-- could add max="30" to tag above -->
+                    <button>Submit!</button>
+                </form>
+            </div>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <h3>The Final Results!</h3>
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Method</th>
+                        <th scope="col">Index</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                    <break>
+
+                    </break>
+                    <tr th:each="multiplication: ${list}">
+                        <td th:text="${multiplication.getMethod()}"></td>
+                        <td th:text="${multiplication.getIndex()}"></td>
+                        <td th:text="${multiplication.getTime()}"></td>
+                        <td th:text="${multiplication.getValue()}"></td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+
+
+</body>
+</html>
+

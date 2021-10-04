@@ -7,15 +7,10 @@ public class multiplicationRecursion extends multiplicationClass{
 
     }
 
-    public int[] recursion(int[] values){
-        int newArr[] = new int[values.length];
-        int x = 0;
-        if (x < values.length){
-            newArr[x] = values[x] * 10;
-            x++;
-            recursion(values);
-        }
-        return newArr;
+    public void recursion(int cur, int iter){
+        System.out.println("YOYOYO" + cur + " " + iter);
+        if(iter==1)this.value=Integer.toString(cur);
+        else recursion(cur*10, iter-1);
     }
 
     public void compute(){
@@ -26,14 +21,14 @@ public class multiplicationRecursion extends multiplicationClass{
         values[0] = 5;
 
 //       values = recursion(values);
-
-        for (int i = 1; i < values.length; i++){
-            values[i] = 10 * values[i-1];
-        }
+            recursion(5, this.nth);
+//        for (int i = 1; i < values.length; i++){
+//            values[i] = 10 * values[i-1];
+//        }
 
         long endTime = System.currentTimeMillis();
         this.time = Long.toString(endTime-startTime);
-        this.value = Integer.toString(values[values.length-1]);
+//        this.value = Integer.toString(values[values.length-1]);
 
     }
 }

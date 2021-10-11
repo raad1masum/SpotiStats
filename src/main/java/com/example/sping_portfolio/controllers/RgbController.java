@@ -15,8 +15,8 @@ import java.util.List;
 public class RgbController {
     @GetMapping("/image")
     public String image(Model model)  {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+        String web_server = "http://localhost:8080/";
+//        String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/Mona_Lisa.png";

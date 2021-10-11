@@ -11,6 +11,7 @@ import com.example.sping_portfolio.controllers.ImageInfo;
 import java.util.ArrayList;
 import java.util.List;
 
+@Controller
 public class RgbController {
     @GetMapping("/image")
     public String image(Model model)  {

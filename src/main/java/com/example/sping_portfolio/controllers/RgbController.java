@@ -31,6 +31,6 @@ public class RgbController {
         lii.get(2).read_image();
 
         model.addAttribute("lii", lii);
-        return "starters/image";
+        return "image";
     }
 }

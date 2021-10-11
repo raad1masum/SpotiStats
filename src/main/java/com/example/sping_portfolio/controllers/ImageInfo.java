@@ -136,7 +136,18 @@ public class ImageInfo {
         return ((a&0x0ff)<<24)|((r&0x0ff)<<16)|((g&0x0ff)<<8)|(b&0x0ff);
     }
 
+    public String getFile() {
+        return this.file;
+    }
 
+
+    public int getHeight() {
+        return this.height;
+    }
+
+    public int getWidth() {
+        return this.width;
+    }
 
 
     public int getScaled_height(int row) {

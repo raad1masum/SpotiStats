@@ -13,23 +13,22 @@ import java.util.List;
 
 @Controller
 public class RgbController {
+    
+    String web_server = "http://localhost:8080/";
+    List<ImageInfo> ImageInfoInit(String[] filenames, int[] scalefactors) {
+        List<ImageInfo> ret = new ArrayList<>();
+        for(int i = 0; i < filenames.length; i++){
+            ret.add(new ImageInfo(filenames[i], web_server+filenames[i], scalefactors[i]));
+            ret.get(i).read_image();
+        }
+        return ret;
+    }
+
     @GetMapping("/image")
     public String image(Model model)  {
-        String web_server = "http://localhost:8080/";
-//        String web_server = "https://csa.nighthawkcodingsociety.com";
-        List<ImageInfo> lii = new ArrayList<>();
-
-        String file0 = "/images/Mona_Lisa.png";
-        lii.add(new ImageInfo(file0, web_server+file0, 12));
-        lii.get(0).read_image();
-
-        String file1 = "/images/bulb_on.gif";
-        lii.add(new ImageInfo(file1, web_server+file1, 2));
-        lii.get(1).read_image();
-
-        String file2 = "/images/bulb_off.png";
-        lii.add(new ImageInfo(file2, web_server+file2, 7));
-        lii.get(2).read_image();
+        String[] filenames = {"/images/Mona_lisa.png", "/images/bulb_on.gif", "/images/bulb_off.png"};
+        int[] scalefactors = {12, 2, 7};
+        List<ImageInfo> lii = ImageInfoInit(filenames, scalefactors);
 
         model.addAttribute("lii", lii);
         return "image";

@@ -34,3 +34,4 @@ public class RgbController {
         return "image";
     }
 }
+   

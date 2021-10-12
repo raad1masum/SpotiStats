@@ -177,6 +177,18 @@ public class ImageInfo {
                 String.format("%8s", Integer.toBinaryString(rgb_matrix[h][w][2])).replace(' ', '0') ;
     }
 
+    public String getFile() {
+        return file;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
     public String[] convert_to_ascii(){
         int[][] gs = this.to_grayscale();
         int[][] scaled_gs = this.scale(gs);

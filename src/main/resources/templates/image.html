@@ -31,8 +31,9 @@
                     <tbody>
                         <tr th:each="ii: ${lii}">
                             <td>
-                                <div th:text="${ii.getFile()}">File name</div>
-                                <div th:text="'(' + ${ii.getHeight()} + ',' + ${ii.getWidth()} + ')'">Height,Width</div>
+                                <div th:text="'Filename: ' + ${ii.getFile().replaceAll('/images/', '')}">File name</div>
+                                <div th:text="'Height: ' + ${ii.getHeight()}">Height</div>
+                                <div th:text="'Width: ' + ${ii.getWidth()}">Width</div>
                             </td>
                             <td>
                                 <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt=""

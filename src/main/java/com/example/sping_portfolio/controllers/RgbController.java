@@ -26,8 +26,8 @@ public class RgbController {
 
     @GetMapping("/image")
     public String image(Model model)  {
-        String[] filenames = {"/images/Mona_lisa.png", "/images/bulb_on.gif", "/images/bulb_off.png"};
-        int[] scalefactors = {12, 2, 7};
+        String[] filenames = {"/images/Mona_lisa.png", "/images/background.png", "/images/bulb_off.png"};
+        int[] scalefactors = {12, 15, 7};
         List<ImageInfo> lii = ImageInfoInit(filenames, scalefactors);
 
         model.addAttribute("lii", lii);

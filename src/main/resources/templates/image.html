@@ -31,7 +31,7 @@
                     <tbody>
                         <tr th:each="ii: ${lii}">
                             <td>
-                                <div th:text="'Filename: ' + ${ii.getFile().replaceAll('/images/', '')}">File name</div>
+                                <div th:text="'Filename: ' + ${ii.getFile().replaceAll('/images/|\..*$', '')}">File name</div>
                                 <div th:text="'Height: ' + ${ii.getHeight()}">Height</div>
                                 <div th:text="'Width: ' + ${ii.getWidth()}">Width</div>
                             </td>

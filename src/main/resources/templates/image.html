@@ -6,9 +6,9 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 
 <head>
-  <div layout:fragment="metadata" th:remove="tag">
-    <title>Image Processing</title>
-  </div>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Image Processing</title>
+    </div>
 </head>
 
 <body>
@@ -37,7 +37,11 @@
                             <td>
                                 <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt=""
                                     src="${ii.getFile()}" width=128 height="Auto">
-                            <!-- <td>
+                            <td>
+                                <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt=""
+                                    src="${ii.getFile()}" width=128 height="Auto">
+                            </td>
+                            <td>
                                 <div class="overflow-auto" style="height: 256px">
                                     <table class="table">
                                         <thead>
@@ -50,28 +54,20 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <span th:each="row: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
-                                                <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
-                                                    <td th:text="${ii.getScaled_height(row)}">row</td>
-                                                    <td th:text="${ii.getScaled_width(col)}">column</td>
-                                                    <td th:text="${ii.getRGB(row,col)}">cell</td>
-                                                    <td th:text="${ii.getHexCode(row,col)}">cell</td>
-                                                    <td th:text="${ii.getBinary(row,col)}">cell</td>
-                                                </tr>
-                                            </span>
+                                            <tr>
+                                                <td th:text="${ii.getScaled_height(5)}">row</td>
+                                                <td th:text="${ii.getScaled_width(5)}">column</td>
+                                                <td th:text="${ii.getRGB(5,5)}">cell</td>
+                                                <td th:text="${ii.getHexCode(5,5)}">cell</td>
+                                                <td th:text="${ii.getBinary(5,5)}">cell</td>
+                                            </tr>
                                         </tbody>
                                     </table>
-                            
-                                -->
-                                </td> 
-            </div>
-            </td>
-            </tr>
-            </tbody>
-            </table>
 
+                                </div>
+                            </td>
+            </div>
         </div>
-    </div>
 
     </div>
 </body>

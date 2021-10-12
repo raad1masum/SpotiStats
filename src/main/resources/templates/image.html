@@ -55,13 +55,16 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td th:text="${ii.getScaled_height(5)}">row</td>
-                                                <td th:text="${ii.getScaled_width(5)}">column</td>
-                                                <td th:text="${ii.getRGB(5,5)}">cell</td>
-                                                <td th:text="${ii.getHexCode(5,5)}">cell</td>
-                                                <td th:text="${ii.getBinary(5,5)}">cell</td>
-                                            </tr>
+                                            <span th:each="row: ${#numbers.sequence(0, ii.getScaled_height(1))}">
+                                                <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width(1))}">
+                                                    <td th:text="${ii.getScaled_height(row)}">row</td>
+                                                    <td th:text="${ii.getScaled_width(col)}">column</td>
+                                                    <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                                    <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                                    <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                                </tr>
+                                            </span>
+
                                         </tbody>
                                     </table>
 

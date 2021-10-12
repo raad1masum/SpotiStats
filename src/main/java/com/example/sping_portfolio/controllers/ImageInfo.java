@@ -31,8 +31,9 @@ public class ImageInfo {
             this.scaled_height = this.height / scale_factor;
             this.width = img.getWidth();
             this.scaled_width = this.width / scale_factor;
-            //System.out.println(Integer.toString(this.height) + " " + Integer.toString(this.width));
+            System.out.println(Integer.toString(this.height) + " " + Integer.toString(this.width));
             this.rgb_matrix = new int[this.height][this.width][3];
+            // this.rgb_matrix = new int[this.scaled_height][this.scaled_width][3];
 
             for (int y=0; y < this.height; y++){
                 for(int x=0; x < this.width; x++){
@@ -148,7 +149,6 @@ public class ImageInfo {
     public int getWidth() {
         return this.width;
     }
-
 
     public int getScaled_height(int row) {
         return row * this.scale_factor;

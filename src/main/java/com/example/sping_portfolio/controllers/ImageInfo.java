@@ -136,7 +136,18 @@ public class ImageInfo {
         return ((a&0x0ff)<<24)|((r&0x0ff)<<16)|((g&0x0ff)<<8)|(b&0x0ff);
     }
 
+    public String getFile() {
+        return this.file;
+    }
 
+
+    public int getHeight() {
+        return this.height;
+    }
+
+    public int getWidth() {
+        return this.width;
+    }
 
 
     public int getScaled_height(int row) {
@@ -175,18 +186,6 @@ public class ImageInfo {
                 String.format("%8s", Integer.toBinaryString(rgb_matrix[h][w][1])).replace(' ', '0') +
                 " " +
                 String.format("%8s", Integer.toBinaryString(rgb_matrix[h][w][2])).replace(' ', '0') ;
-    }
-
-    public String getFile() {
-        return file;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public int getWidth() {
-        return width;
     }
 
     public String[] convert_to_ascii(){

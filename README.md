@@ -1,12 +1,12 @@
 # CSA-Tri-1-Project: 🔴Red Team🔴
 
 ## Table 
-| Name | Github Profile | Tasks | Journals | Commits | Profile |
+| Name | Github Username | Github Profile | Tasks | Journals | Commits | Profile |
 | - | - | - | - | - | - |
-| Rishi Peddakama | [@rpeddakama](https://github.com/rpeddakama) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/rpeddakama) | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=rpeddakama) | [Profile](https://github.com/rpeddakama) |
-| Raadwan Masum | [@raad1masum](https://github.com/raad1masum) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/raad1masum) | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=raad1masum) | [Profile](https://github.com/raad1masum) |
-| Arnav Palkhiwala | [@ArnavPalkhiwala](https://github.com/ArnavPalkhiwala) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues?q=is%3Aopen+assignee%3A%40me) | [Journal](https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=ArnavPalkhiwala) | [Profile](https://github.com/ArnavPalkhiwala) |
-| Aman Jain | [@amanj31](https://github.com/amanj31) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/amanj31) | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=amanj31) | [Profie](https://github.com/amanj31) |
+| Rishi Peddakama | rpeddakama | [@rpeddakama](https://github.com/rpeddakama) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/rpeddakama) | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=rpeddakama) | [Profile](https://github.com/rpeddakama) |
+| Raadwan Masum | raad1masum | [@raad1masum](https://github.com/raad1masum) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/raad1masum) | [Journal](https://docs.google.com/document/d/1XdgObYAPpPuwJi6Kvq3mPO6OQn05WOdcwZ73aTua7e8/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=raad1masum) | [Profile](https://github.com/raad1masum) |
+| Arnav Palkhiwala | ArnavPalkhiwala | [@ArnavPalkhiwala](https://github.com/ArnavPalkhiwala) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues?q=is%3Aopen+assignee%3A%40me) | [Journal](https://docs.google.com/document/d/14JUKWkG_LahbXd0Sn64hrhkVfYiie1kDjvrUdF9fts8/edit) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=ArnavPalkhiwala) | [Profile](https://github.com/ArnavPalkhiwala) |
+| Aman Jain | amanj31 | [@amanj31](https://github.com/amanj31) | [TASKS](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/amanj31) | [Journal](https://docs.google.com/document/d/1DZxo0UIKQWJ7KLox5hkE96J63tFqWoBb3ydF6jgcSg0/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=amanj31) | [Profie](https://github.com/amanj31) |
 
 ## HISTORY
 
@@ -16,7 +16,7 @@
 
 ---
 
-## PBL Team
+## Week 7 PBL Team
 
 | Name             | Role         | Task                                                                                                                                                       | Scrum Issue                                                           | Commit                                                                                       |
 | ---------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

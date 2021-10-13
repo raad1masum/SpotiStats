@@ -21,7 +21,7 @@ The overall idea of our project is an anonymous feedback system for Del Norte Hi
 ---
 
 ## Week 7 PBL Team
-### [Video](https://www.youtube.com/watch?v=ZZkuOjtkDMY&amp;ab_channel=RaadwanMasum) [Review Ticket](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/39)
+### [Video](https://www.youtube.com/watch?v=ZZkuOjtkDMY&amp;ab_channel=RaadwanMasum) and [Review Ticket](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/39)
 
 | Name             | Role         | Task                                                                                                                                                       | Scrum Issue                                                           | Commit                                                                                       |
 | ---------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

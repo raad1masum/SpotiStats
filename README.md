@@ -1,6 +1,9 @@
 # CSA-Tri-1-Project: 🔴Red Team🔴
 
-## Table 
+## Ideation
+The overall idea of our project is an anonymous feedback system for Del Norte High School. People will be able to post ideas and have students anonymously give their opinions on it. We hope that it becomes useful for teachers (for evaluating their lesson plans) and for ASB (when planning future events).
+
+## PopQuiz Table 
 | Name | Github Username | Github Profile | Issue | Journals | Commits |
 | - | - | - | - | - | - |
 | Rishi Peddakama | rpeddakama | [@rpeddakama](https://github.com/rpeddakama) | [Issues](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/rpeddakama) | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=rpeddakama) |

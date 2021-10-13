@@ -18,7 +18,7 @@
 ---
 
 ## Week 7 PBL Team
-### [Video](https://www.youtube.com/watch?v=ZZkuOjtkDMY&amp;ab_channel=RaadwanMasum)
+### [Video](https://www.youtube.com/watch?v=ZZkuOjtkDMY&amp;ab_channel=RaadwanMasum) [Review Ticket](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/39)
 
 | Name             | Role         | Task                                                                                                                                                       | Scrum Issue                                                           | Commit                                                                                       |
 | ---------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

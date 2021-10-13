@@ -10,6 +10,7 @@
 
 ## HISTORY
 
+- [Week 7](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-7-pbl-team)
 - [Week 4](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-4-pbl-team)
 - [Week 3](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-3-pbl-team)
 - [Week 1-2](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-1-2-pbl-team)

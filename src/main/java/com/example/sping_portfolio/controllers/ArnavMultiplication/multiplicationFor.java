@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.controllers.ArnavMultiplication;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class multiplicationFor extends multiplicationClass{
     public multiplicationFor(String inp){

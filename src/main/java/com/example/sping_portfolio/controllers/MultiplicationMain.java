@@ -1,10 +1,6 @@
 package com.example.sping_portfolio.controllers;
 
 import com.example.sping_portfolio.controllers.ArnavMultiplication.*;
-import com.example.sping_portfolio.controllers.PrimeRishi.PrimeFor;
-import com.example.sping_portfolio.controllers.PrimeRishi.PrimeRecursion;
-import com.example.sping_portfolio.controllers.PrimeRishi.PrimeSieve;
-import com.example.sping_portfolio.controllers.PrimeRishi.PrimeWhile;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,12 +1,12 @@
 package com.example.sping_portfolio.controllers.ArnavMultiplication;
 
-import java.sql.Array;
+// import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+// import java.util.Collections;
+// import java.util.List;
+// import java.util.stream.Collectors;
+// import java.util.stream.Stream;
 
 public class multiplicationStream extends multiplicationClass {
     public multiplicationStream(String nth) {

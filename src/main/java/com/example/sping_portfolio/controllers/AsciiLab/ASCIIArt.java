@@ -1,8 +1,6 @@
 package com.example.sping_portfolio.controllers.AsciiLab;
 import java.awt.Color;
 
-import org.codehaus.groovy.runtime.powerassert.SourceText;
-
 public class ASCIIArt {
     // The lookup table for all of the chars that can be used
     public static final String GRAYSCALE_CHARS  = "@#BW8gMN6&9RQqE0d$DbpmOa5AH2GZeKPS3X4U%kwohFVyzIsCu{xfn}tJTi17c=jYL?l[]v<>+|)r(/\\*_!;^~\":,-'.`";
@@ -39,7 +37,6 @@ public class ASCIIArt {
 
         // This function iterates over the GRAYSCALE_VALUES array to find the index with a value closest to that of the val parameter
         // It uses a max function to prevent unecessary iterations
-
         double diff = 1000.0;
         int index=0;
         for(int i=0; i<GRAYSCALE_VALUES.length; i++){
@@ -68,10 +65,8 @@ public class ASCIIArt {
         // ret is sent to AsciiController.java. It is a 2D array of ASCII characters
         char[][] ret = new char[nHeight][nWidth];
 
-        /* 
-            normalizedImage is created by average "blocks" of the image in order to maintain the same aspect ratio and 
-            reduce the size of high resolution images
-        */
+        // normalizedImage is created by average "blocks" of the image in order to maintain the same aspect ratio and 
+        // reduce the size of high resolution images
         double [][] normalizedImage = new double [nHeight][nWidth];
     
         System.out.println("BOUNDS " + image.length + " x " + image[0].length);

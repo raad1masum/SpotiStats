@@ -20,6 +20,14 @@
         <div class="row" style="padding: 0% 10% 5%">
           <div class="col-8">
             <h1>Ascii Lab</h1>
+            <form id="asciiform" action="/asciiLab" method="GET">
+              <label for="">Row Factor</label>
+              <input name="rowFactor" type="number" min="2" required />
+              <label for="">Column Factor</label>
+              <input name="colFactor" type="number" min="4" required />
+              <!-- could add max="30" to tag above -->
+              <button>Evalulate</button>
+            </form>
             <table style="background-color: lightblue">
               <tr th:each="i: ${imageArr}">
                 <td th:each="item: ${i}">

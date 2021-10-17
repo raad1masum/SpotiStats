@@ -1,6 +1,8 @@
 package com.example.sping_portfolio.controllers.AsciiLab;
 import java.awt.Color;
 
+import org.codehaus.groovy.runtime.powerassert.SourceText;
+
 public class ASCIIArt {
     // The lookup table for all of the chars that can be used
     public static final String GRAYSCALE_CHARS  = "@#BW8gMN6&9RQqE0d$DbpmOa5AH2GZeKPS3X4U%kwohFVyzIsCu{xfn}tJTi17c=jYL?l[]v<>+|)r(/\\*_!;^~\":,-'.`";
@@ -33,12 +35,61 @@ public class ASCIIArt {
         return image;
     }
 
-    public static void main(String[] args) {
+    public static int getIndex(double val){
+
+        double diff = 1000.0;
+        int index=0;
+        for(int i=0; i<GRAYSCALE_VALUES.length; i++){
+            if(Math.abs(val-GRAYSCALE_VALUES[i]) <= diff){
+                diff=val-GRAYSCALE_VALUES[i];
+                index=i;
+            }
+            else {
+                // System.out.println("DIFF " + diff);
+                // System.out.println("INDEX " + index);
+                // System.out.println("NEW DIFF THAT WAS REJECTED " + Math.abs(val-GRAYSCALE_VALUES[i]));
+                // System.out.println("ANSWER " + GRAYSCALE_VALUES[index]);
+                break;
+            }
+        }
+        
+        return index;
+    }
+
+    public static char[][] create() {
         Picture picture = new Picture("./static/images/ursinus.png");
         double[][] image = getGrayscaleArray(picture);
-        System.out.println(image[10][4]);
+
+        
+        int rowFactor=4, colFactor=2;
+        int nHeight=image.length/rowFactor, nWidth=image[0].length/colFactor;
+        
+        char[][] ret = new char[nHeight][nWidth];
+        double [][] normalizedImage = new double [nHeight][nWidth];
+    
+        System.out.println("BOUNDS " + image.length + " x " + image[0].length);
+        System.out.println("NEW BOUNDS " + nHeight + " x " + nWidth);
+
+        for(int i=0; i<image.length; i+=rowFactor){
+            for(int j=0; j<image[0].length; j+=colFactor){
+                double current=0;
+                for(int r=0; r<rowFactor; r++){
+                    for(int c=0; c<colFactor; c++){
+                        current += image[i+r][j+c];
+                    }
+                }
+                normalizedImage[i/rowFactor][j/colFactor] = (double)current/(rowFactor*colFactor);
+            }
+        }
+
+        for(int i=0; i<normalizedImage.length; i++){
+            for(int j=0; j<normalizedImage[0].length; j++){
+                ret[i][j] = GRAYSCALE_CHARS.charAt(getIndex(normalizedImage[i][j]));
+            }
+        }
         // TODO: Make ASCII art.  You should define at least one method
         // that takes in the image array, as well as the number of
         // rows and columns in each block
-    }
+        return ret;
+    }   
 }

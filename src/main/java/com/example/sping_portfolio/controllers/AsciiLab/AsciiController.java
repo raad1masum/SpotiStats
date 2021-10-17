@@ -12,7 +12,7 @@ public class AsciiController {
     @GetMapping("/asciiLab")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String asciiLab(Model model) {
-        char AsciiArray[][] = ASCIIArt.create();
+        char AsciiArray[][] = ASCIIArt.create(5, 5);
 
         model.addAttribute("imageArr", AsciiArray);
         

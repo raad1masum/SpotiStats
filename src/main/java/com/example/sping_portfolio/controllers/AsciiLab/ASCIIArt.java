@@ -37,6 +37,9 @@ public class ASCIIArt {
 
     public static int getIndex(double val){
 
+        // This function iterates over the GRAYSCALE_VALUES array to find the index with a value closest to that of the val parameter
+        // It uses a max function to prevent unecessary iterations
+
         double diff = 1000.0;
         int index=0;
         for(int i=0; i<GRAYSCALE_VALUES.length; i++){
@@ -56,11 +59,10 @@ public class ASCIIArt {
         return index;
     }
 
-    public static char[][] create() {
+    public static char[][] create(int rowFactor, int colFactor) {
         Picture picture = new Picture("./static/images/ursinus.png");
         double[][] image = getGrayscaleArray(picture);
 
-        int rowFactor=4, colFactor=2;
         int nHeight=image.length/rowFactor, nWidth=image[0].length/colFactor;
         
         // ret is sent to AsciiController.java. It is a 2D array of ASCII characters
@@ -82,10 +84,11 @@ public class ASCIIArt {
                 double current=0;
                 for(int r=0; r<rowFactor; r++){
                     for(int c=0; c<colFactor; c++){
+                        if(i+r >= image.length || j+c >= image[0].length)continue;
                         current += image[i+r][j+c];
                     }
                 }
-                normalizedImage[i/rowFactor][j/colFactor] = (double)current/(rowFactor*colFactor);
+                if(i/rowFactor < nHeight && j/colFactor < nWidth)normalizedImage[i/rowFactor][j/colFactor] = (double)current/(rowFactor*colFactor);
             }
         }
 
@@ -95,9 +98,6 @@ public class ASCIIArt {
             for(int j=0; j<normalizedImage[0].length; j++)
                 ret[i][j] = GRAYSCALE_CHARS.charAt(getIndex(normalizedImage[i][j]));
             
-        // TODO: Make ASCII art.  You should define at least one method
-        // that takes in the image array, as well as the number of
-        // rows and columns in each block
         return ret;
     }   
 }

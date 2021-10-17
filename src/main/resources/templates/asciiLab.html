@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html
+  xmlns:layout="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.w3.org/1999/xhtml"
+  layout:decorate="~{layout}"
+  lang="en"
+>
+  <head>
+    <div layout:fragment="metadata" th:remove="tag">
+      <!-- Start of head content specific to page -->
+      <title>Ascii Lab</title>
+      <!-- End of head content specific to page -->
+    </div>
+  </head>
+
+  <body>
+    <div layout:fragment="content" th:remove="tag">
+      <!-- Start of body content specific to page -->
+      <div class="product" style="margin-top: 2%">
+        <div class="row" style="padding: 0% 10% 5%">
+          <div class="col-8">
+            <h1>Ascii Lab</h1>
+            <table style="background-color: lightblue">
+              <tr th:each="i: ${imageArr}">
+                <td th:each="item: ${i}">
+                  <span th:text="${item}"></span>
+                </td>
+              </tr>
+
+              <tr></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- End of body content specific to page -->
+    </div>
+  </body>
+</html>

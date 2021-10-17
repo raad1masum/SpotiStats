@@ -60,16 +60,23 @@ public class ASCIIArt {
         Picture picture = new Picture("./static/images/ursinus.png");
         double[][] image = getGrayscaleArray(picture);
 
-        
         int rowFactor=4, colFactor=2;
         int nHeight=image.length/rowFactor, nWidth=image[0].length/colFactor;
         
+        // ret is sent to AsciiController.java. It is a 2D array of ASCII characters
         char[][] ret = new char[nHeight][nWidth];
+
+        /* 
+            normalizedImage is created by average "blocks" of the image in order to maintain the same aspect ratio and 
+            reduce the size of high resolution images
+        */
         double [][] normalizedImage = new double [nHeight][nWidth];
     
         System.out.println("BOUNDS " + image.length + " x " + image[0].length);
         System.out.println("NEW BOUNDS " + nHeight + " x " + nWidth);
 
+        // Normalization happens here. Blocks are iterated over and averaged.
+        // Though there are 4 nested loops, it runs faster than an iteration of the entire array due to iteration factor
         for(int i=0; i<image.length; i+=rowFactor){
             for(int j=0; j<image[0].length; j+=colFactor){
                 double current=0;
@@ -82,11 +89,12 @@ public class ASCIIArt {
             }
         }
 
-        for(int i=0; i<normalizedImage.length; i++){
-            for(int j=0; j<normalizedImage[0].length; j++){
+        // Takes normalized values, finds the index with closest value, and assigns it that asci character
+        // see getIndex() function for info on how this works
+        for(int i=0; i<normalizedImage.length; i++)
+            for(int j=0; j<normalizedImage[0].length; j++)
                 ret[i][j] = GRAYSCALE_CHARS.charAt(getIndex(normalizedImage[i][j]));
-            }
-        }
+            
         // TODO: Make ASCII art.  You should define at least one method
         // that takes in the image array, as well as the number of
         // rows and columns in each block

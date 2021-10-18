@@ -107,4 +107,15 @@ td {
   text-align: left;
   color: white;
   font-size: 20px;
+  border-right: 40px solid transparent;
+}
+
+a:hover {
+  color: var(--green) !important;
+}
+
+.hover-color:hover {
+  color: var(--green) !important;
+  text-decoration: underline;
+  cursor: pointer;
 }

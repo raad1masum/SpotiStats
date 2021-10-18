@@ -45,8 +45,8 @@ public class Stats {
         return obj.getString("access_token");
     }
 
-    public String getInfo(String token) throws Exception {
-        URL url = new URL("https://api.spotify.com/v1/playlists/5mmiPNxhTe9lS66KjakoXP");
+    public String getInfo(String token, String id) throws Exception {
+        URL url = new URL("https://api.spotify.com/v1/playlists/" + id);
 
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
@@ -64,7 +64,7 @@ public class Stats {
     public String stats(@RequestParam(required=false, defaultValue="") String link, Model model) throws Exception {
         System.out.println(getId("https://open.spotify.com/playlist/6u6L0UwiSB3fZjuABeMTlW?si=cc5cf848fe7243f2"));
 
-        System.out.println(getInfo(getToken()));
+        System.out.println(getInfo(getToken(), getId(link)));
 
         model.addAttribute("link", link);
         return "stats";

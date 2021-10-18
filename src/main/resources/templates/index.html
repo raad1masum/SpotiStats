@@ -2,45 +2,44 @@
 <!DOCTYPE html>
 <!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html
-  xmlns:layout="http://www.w3.org/1999/xhtml"
-  xmlns:th="http://www.w3.org/1999/xhtml"
-  layout:decorate="~{layout}"
-  lang="en"
->
-  <head>
-    <div layout:fragment="metadata" th:remove="tag">
-      <title>Project</title>
-      <link rel="stylesheet" type="text/css" href="/css/project.css" />
-      <link rel="stylesheet" type="text/css" href="/css/nav.css" />
-    </div>
-  </head>
-
-  <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-  <body>
-    <div layout:fragment="content" th:remove="tag">
-      <!-- <nav class="">
-        <div class="nav-list" id="">
-          <a class="nav-item" href="/about">About</a>
+    xmlns:layout="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.w3.org/1999/xhtml"
+    layout:decorate="~{layout}"
+    lang="en">
+    <head>
+        <div layout:fragment="metadata" th:remove="tag">
+            <title>Project</title>
+            <link rel="stylesheet" type="text/css" href="/css/project.css" />
+            <link rel="stylesheet" type="text/css" href="/css/nav.css" />
         </div>
-      </nav> -->
-      <!-- Start of body content specific to page -->
-      <div class="nav">
-        <h1 class="title">Del Norte Feedback</h1>
-        <!-- <h2 class="navlink">Posts</h2>
-        <h2 class="navlink">About</h2> -->
-      </div>
+    </head>
 
-      <!-- End of body content specific to page -->
-      <br />
-      <p class="description">Provide Feedback About Anything Related to DNHS</p>
-      <div class="main-box">
-        <form>
-          <input type="text" placeholder="Subject" /><br />
-          <textarea type="text" placeholder="Start typing here!"></textarea
-          ><br />
-          <input class="submit-btn" type="submit" value="Submit" />
-        </form>
-      </div>
-    </div>
-  </body>
+    <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+    <body>
+        <div layout:fragment="content" th:remove="tag">
+            <!-- Start of body content specific to page -->
+            <div class="nav">
+                <h1 class="title">Del Norte Feedback</h1>
+            </div>
+
+            <!-- End of body content specific to page -->
+            <br />
+            <div class="wrap">
+                <div class="main-box">
+                    <p class="description">Provide Feedback About Anything
+                        Related to DNHS</p>
+                    <p class="question-prompt">This week's prompt: <span>I like
+                            school lunches</span></p>
+                    <p class="question"></p>
+                    <form>
+                        <input type="range" min="1" max="100" value="50"
+                            class="slider" id="myRange">
+                        <br />
+                        <input class="submit-btn" type="submit" value="Submit"
+                            />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

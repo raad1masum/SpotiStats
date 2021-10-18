@@ -19,25 +19,26 @@
         <div layout:fragment="content" th:remove="tag">
             <!-- Start of body content specific to page -->
             <div class="nav">
-                <h1 class="title">Del Norte Feedback</h1>
+                <h1 class="title">SpotiStats</h1>
             </div>
 
             <!-- End of body content specific to page -->
             <br />
             <div class="wrap">
                 <div class="main-box">
-                    <p class="description">Provide Feedback About Anything
-                        Related to DNHS</p>
-                    <p class="question-prompt">This week's prompt: <span>I like
-                            school lunches</span></p>
+                    <p class="description">Paste Your Spotify Playlist Link Here:</p>
                     <p class="question"></p>
-                    <form>
-                        <input type="range" min="1" max="100" value="50"
-                            class="slider" id="myRange">
-                        <br />
-                        <input class="submit-btn" type="submit" value="Submit"
-                            />
-                    </form>
+                    <div class="main-box">
+                        <form>
+                          <input type="text" placeholder="Playlist Link" /><br />
+                         
+                        </form>
+                    </div>
+                        
+                    <br />
+                    <input class="submit-btn" type="submit" value="Get Stats!"
+                        />
+                    
                 </div>
             </div>
         </div>

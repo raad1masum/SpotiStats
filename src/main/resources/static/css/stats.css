@@ -112,6 +112,7 @@ td {
   color: white;
   font-size: 20px;
   border-right: 40px solid transparent;
+  border-top: 10px solid transparent;
 }
 
 a:hover {

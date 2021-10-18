@@ -60,6 +60,12 @@ public class Stats {
         return result;
     }
 
+    public String getInfo(String info, String data) {
+        JSONObject obj = new JSONObject(data);
+
+        return obj.getString(info);
+    }
+
     @GetMapping("/stats")
     public String stats(@RequestParam(required=false, defaultValue="") String link, Model model) throws Exception {
         System.out.println(getId("https://open.spotify.com/playlist/6u6L0UwiSB3fZjuABeMTlW?si=cc5cf848fe7243f2"));

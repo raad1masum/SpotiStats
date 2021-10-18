@@ -1,4 +1,4 @@
-nav {
+  nav {
   background-color: black;
   padding: 20px;
 }
@@ -66,21 +66,27 @@ nav {
 .nav-left {
   color: var(--green);
   font-size: 35px;
+  transition: 0.3s;
 }
 
 .nav-right {
   color: white;
   font-size: 35px;
+  transition: 0.3s;
 }
 
 .nav-left:hover {
   color: var(--green);
   font-size: 35px;
-  text-decoration: underline;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 .nav-right:hover {
   color: white;
   font-size: 35px;
-  text-decoration: underline;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 0.5s;
 }

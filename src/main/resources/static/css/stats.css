@@ -104,6 +104,7 @@ p {
   text-align: left;
   color: white;
   font-size: 20px;
+  transition: 0.3s;
 }
 
 td {
@@ -112,16 +113,19 @@ td {
   font-size: 20px;
   border-right: 40px solid transparent;
   border-top: 10px solid transparent;
+  transition: 0.3s;
 }
 
 a:hover {
   color: var(--green) !important;
+  transition: 0.3s;
 }
 
 .hover-color:hover {
   color: var(--green) !important;
   text-decoration: underline;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 img {

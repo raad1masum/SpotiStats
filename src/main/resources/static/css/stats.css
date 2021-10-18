@@ -119,3 +119,7 @@ a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
+img {
+  height: 100px;
+}

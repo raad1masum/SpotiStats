@@ -1,7 +1,7 @@
 # CSA-Tri-1-Project: 🔴Red Team🔴
 
 ## Ideation
-The overall idea of our project is an anonymous feedback system for Del Norte High School. People will be able to post ideas and have students anonymously give their opinions on it. We hope that it becomes useful for teachers (for evaluating their lesson plans) and for ASB (when planning future events).
+The overall idea of our project is a music playlist analyzer. Any user can input a link to their spotify playlist and recieve statistics about it.
 
 ## PopQuiz Table 
 | Name | Github Username | Github Profile | Issue | Journals | Commits |

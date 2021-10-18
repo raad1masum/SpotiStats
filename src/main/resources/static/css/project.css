@@ -1,6 +1,9 @@
+:root {
+  --green: #18D860;
+}
+
 body {
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .nav {
@@ -49,7 +52,6 @@ body {
 }
 
 .main-box {
-  background-color: #5988bd9f;
   align-items: center;
   text-align: center;
   padding: 20px;
@@ -85,7 +87,7 @@ body {
   background: #d1d1d1;
   width: 348px;
   height: 67px;
-  background: #002865;
+  background: var(--green);
   border-radius: 9000px;
   color: white;
   outline: none;

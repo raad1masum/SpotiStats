@@ -99,4 +99,10 @@ body {
   outline: none;
   border: none;
   font-size: 25px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #19ac68 !important;
+  transition: 0.3s;
 }

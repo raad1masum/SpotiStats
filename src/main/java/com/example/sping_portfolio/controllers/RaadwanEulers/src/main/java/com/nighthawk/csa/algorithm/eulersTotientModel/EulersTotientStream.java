@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.eulersTotientModel;
-
 // import java.util.stream.Stream;
 import java.util.ArrayList;
 

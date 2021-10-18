@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.eulersTotientModel;
-
 public class EulersTotientRecurse extends _EulersTotient {
     public EulersTotientRecurse() {
         super();

@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.fibonacciModel;
-
 import com.nighthawk.csa.consoleUI.ConsoleMethods;
 
 import java.time.Duration;

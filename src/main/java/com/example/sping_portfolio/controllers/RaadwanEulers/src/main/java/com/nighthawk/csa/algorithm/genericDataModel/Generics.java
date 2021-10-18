@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.genericDataModel;
-
 import lombok.Getter;
 import lombok.Setter;
 

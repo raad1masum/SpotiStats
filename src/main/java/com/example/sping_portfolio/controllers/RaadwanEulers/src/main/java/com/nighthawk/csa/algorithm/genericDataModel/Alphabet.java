@@ -1,4 +1,3 @@
-package com.nighthawk.csa.algorithm.genericDataModel;
 import com.nighthawk.csa.consoleUI.ConsoleMethods;
 
 public class Alphabet extends Generics {

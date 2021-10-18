@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.fibonacciModel;
-
 public class FibWhile extends _Fibonacci {
     public FibWhile() {
         super();

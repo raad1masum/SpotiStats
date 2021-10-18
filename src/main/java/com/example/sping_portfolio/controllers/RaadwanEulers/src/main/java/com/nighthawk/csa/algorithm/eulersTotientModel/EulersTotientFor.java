@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.eulersTotientModel;
-
 public class EulersTotientFor extends _EulersTotient {
     // zero and one argument constructors, both defer to super
     public EulersTotientFor() { super(); }

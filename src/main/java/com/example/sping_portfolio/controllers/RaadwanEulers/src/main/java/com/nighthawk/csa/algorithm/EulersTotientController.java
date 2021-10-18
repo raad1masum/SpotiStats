@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm;
-
 import com.nighthawk.csa.algorithm.eulersTotientModel.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

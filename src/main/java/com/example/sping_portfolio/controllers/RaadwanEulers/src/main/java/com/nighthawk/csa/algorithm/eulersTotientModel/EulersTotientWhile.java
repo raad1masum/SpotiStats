@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.eulersTotientModel;
-
 public class EulersTotientWhile extends _EulersTotient {
     public EulersTotientWhile() {
         super();

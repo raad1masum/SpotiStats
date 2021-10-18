@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.fibonacciModel;
-
 public class FibRecurse extends _Fibonacci {
     public FibRecurse() {
         super();

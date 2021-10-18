@@ -1,5 +1,3 @@
-package com.nighthawk.csa.algorithm.fibonacciModel;
-
 public class FibFor extends _Fibonacci {
     // zero and one argument constructors, both defer to super
     public FibFor() { super(); }

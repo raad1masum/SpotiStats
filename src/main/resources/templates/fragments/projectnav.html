@@ -64,33 +64,19 @@
       .dropdown:hover .dropbtn {
         background-color: #130047;
       }
+
+      .nav {
+        display: flex;
+        justify-content: space-around;
+      }
     </style>
   </head>
   <body>
     <!-- Begin navigation fragments -->
     <nav class="" th:fragment="header" style="z-index: 10">
-      <div>
+      <div class="nav">
+        <a class="nav-item" href="/">Del Norte Feedback</a>
         <a class="nav-item" href="/about">About</a>
-        <a class="nav-item" href="/project">Project</a>
-        <div class="dropdown">
-          <button class="dropbtn">Minilabs</button>
-          <div class="dropdown-content">
-            <a href="/loopsminilab">Loops</a>
-            <a href="/primeMain">Primes</a>
-            <a href="/tribonaccimain">Tribonacci</a>
-            <a href="/multiplicationMain">Multiplication</a>
-            <a href="/modeling">Modeling</a>
-          </div>
-        </div>
-        <!-- <div class="dropdown">
-          <button class="dropbtn">About Pages</button>
-          <div class="dropdown-content">
-            <a href="/rishi">Rishi</a>
-            <a href="/raadwan">Raadwan</a>
-            <a href="/arnav">Arnav</a>
-            <a href="/aman">Aman</a>
-          </div>
-        </div> -->
       </div>
     </nav>
     <!-- End navigation fragments -->

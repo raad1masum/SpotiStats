@@ -59,7 +59,7 @@ body {
 }
 
 .main-box input:nth-child(1) {
-  width: 919px;
+  width: 100%;
   height: 75px;
   background: #d1d1d1;
   border-radius: 40px;
@@ -71,7 +71,7 @@ body {
 }
 
 .main-box textarea {
-  width: 919px;
+  width: 100%;
   height: 231px;
   background: #d1d1d1;
   border-radius: 40px;

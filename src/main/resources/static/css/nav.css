@@ -72,3 +72,15 @@ nav {
   color: white;
   font-size: 35px;
 }
+
+.nav-left:hover {
+  color: var(--green);
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.nav-right:hover {
+  color: white;
+  font-size: 35px;
+  text-decoration: underline;
+}

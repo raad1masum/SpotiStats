@@ -17,6 +17,15 @@ import org.json.JSONObject;
 
 @Controller
 public class Stats {
+    public String getId(String link) {
+        String output = link;
+
+        output = output.replaceAll("https://open.spotify.com/playlist/", "");
+        output = output.substring(0, output.indexOf("?"));
+
+        return output;
+    }
+
     public String getToken() throws Exception {
         URLConnection connection = new URL("https://accounts.spotify.com/api/token").openConnection();
 
@@ -53,6 +62,7 @@ public class Stats {
 
     @GetMapping("/stats")
     public String stats(@RequestParam(required=false, defaultValue="") String link, Model model) throws Exception {
+        System.out.println(getId("https://open.spotify.com/playlist/6u6L0UwiSB3fZjuABeMTlW?si=cc5cf848fe7243f2"));
 
         System.out.println(getInfo(getToken()));
 

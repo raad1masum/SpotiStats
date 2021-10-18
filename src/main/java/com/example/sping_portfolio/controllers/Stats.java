@@ -101,6 +101,12 @@ public class Stats {
         System.out.println("Song Count: " + songCount);
 
         model.addAttribute("link", link);
+        model.addAttribute("name", name);
+        model.addAttribute("image", image);
+        model.addAttribute("description", description);
+        model.addAttribute("followers", followers);
+        model.addAttribute("owner", owner);
+        model.addAttribute("songCount", songCount);
         return "stats";
     }
 }

@@ -84,12 +84,11 @@ body {
 }
 
 .main-box .submit-btn {
-  background: #d1d1d1;
   width: 348px;
   height: 67px;
   background: var(--green);
   border-radius: 9000px;
-  color: white;
+  color: black;
   outline: none;
   border: none;
   font-size: 25px;

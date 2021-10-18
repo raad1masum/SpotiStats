@@ -28,16 +28,13 @@
                     <p class="description">Paste Your Spotify Playlist Link Here:</p>
                     <p class="question"></p>
                     <div class="main-box">
-                        <form>
-                          <input type="text" placeholder="Playlist Link" /><br />
-                         
+                        <form action="/stats" method="GET" id="playlistLinkForm">
+                          <input type="text" name="link" placeholder="Playlist Link" /><br />
+                          <br />
+                          <br />
+                          <input class="submit-btn" type="submit" value="Get Stats!"/>
                         </form>
                     </div>
-                        
-                    <br />
-                    <input class="submit-btn" type="submit" value="Get Stats!"
-                        />
-                    
                 </div>
             </div>
         </div>

@@ -20,6 +20,11 @@ The overall idea of our project is a music playlist analyzer. Any user can input
 
 ---
 
+## Week 8 PBL Team
+[Review Ticket](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/40)
+
+---
+
 ## Week 7 PBL Team
 ### [Video](https://www.youtube.com/watch?v=ZZkuOjtkDMY&amp;ab_channel=RaadwanMasum) and [Review Ticket](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/39)
 

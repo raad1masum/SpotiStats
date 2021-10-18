@@ -26,13 +26,34 @@ body {
   font-size: 35px;
   color: #e2e2e2;
   text-align: center;
+  margin-top: 1vh;
+}
+
+.question-prompt {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #e2e2e2;
+  text-align: center;
+}
+
+.question {
+  font-size: 25px;
+  color: #e2e2e2;
+  text-align: center;
+}
+
+.wrap {
+  width: 900px;
+  margin: auto;
+  margin-top: 2vh;
 }
 
 .main-box {
-  display: flex;
-  justify-content: center;
+  background-color: #5988bd9f;
   align-items: center;
   text-align: center;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .main-box input:nth-child(1) {

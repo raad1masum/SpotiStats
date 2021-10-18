@@ -26,13 +26,51 @@
             <div class="wrap">
                 <div class="main-box">
                     <p class="description">Playlist Stats:</p>
-                    <p th:text="${name}"></p>
-                    <p th:text="${link}"></p>
-                    <p th:text="${image}"></p>
-                    <p th:text="${description}"></p>
-                    <p th:text="${followers}"></p>
-                    <p th:text="${owner}"></p>
-                    <p th:text="${songCount}"></p>
+                    <table style="width:100%">
+                      <tr>
+                        <td>Name</td>
+                        <td><p th:text="${name}"></p></td>
+                      </tr>
+                      <tr>
+                        <td>Link</td>
+                        <td><p th:text="${link}"></p></td>
+                      </tr>
+                      <tr>
+                        <td>Image</td>
+                        <td><p th:text="${image}"></p></td>
+                      </tr>
+                      <tr>
+                        <td>Description</td>
+                        <td><p th:text="${description}"></p></td>
+                      </tr>
+                      <tr>
+                        <td>Followers</td>
+                        <td><p th:text="${followers}"></p></td>
+                      </tr>
+                      <tr>
+                        <td>Owner</td>
+                        <td><p th:text="${owner}"></p></td>
+                      </tr>
+                      <tr>
+                        <td>Song Count</td>
+                        <td><p th:text="${songCount}"></p></td>
+                      </tr>
+                        <!-- <td>Link</td>
+                        <td>Image</td>
+                        <td>Description</td>
+                        <td>Followers</td>
+                        <td>Owner</td>
+                        <td>Song Count</td>
+                      </tr>
+                      <tr>
+                        <td><p th:text="${name}"></p></td>
+                        <td><p th:text="${image}"></p></td>
+                        <td><p th:text="${description}"></p></td>
+                        <td><p th:text="${followers}"></p></td>
+                        <td><p th:text="${owner}"></p></td>
+                        <td><p th:text="${songCount}"></p></td>
+                      </tr> -->
+                    </table>
                 </div>
             </div>
         </div>

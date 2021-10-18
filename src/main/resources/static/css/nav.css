@@ -62,3 +62,13 @@ nav {
   display: flex;
   justify-content: space-around;
 } 
+
+.nav-left {
+  color: var(--green);
+  font-size: 35px;
+}
+
+.nav-right {
+  color: white;
+  font-size: 35px;
+}

@@ -70,7 +70,13 @@ public class Stats {
     public String stats(@RequestParam(required=false, defaultValue="") String link, Model model) throws Exception {
         System.out.println(getId("https://open.spotify.com/playlist/6u6L0UwiSB3fZjuABeMTlW?si=cc5cf848fe7243f2"));
 
-        System.out.println(getData(getToken(), getId(link)));
+        String id = getId(link);
+        String token = getToken();
+        String data = getData(token, id);
+
+        System.out.println(data);
+
+        System.out.println("Description: " + getInfo("description", data));
 
         model.addAttribute("link", link);
         return "stats";

@@ -67,7 +67,15 @@ public class Stats {
     }
 
     @GetMapping("/stats")
-    public String stats(@RequestParam(required=false, defaultValue="") String link, Model model) throws Exception {
+    public String stats(@RequestParam(required=false, defaultValue="") String link,
+        @RequestParam(required=false, defaultValue="") String name,
+        @RequestParam(required=false, defaultValue="") String image,
+        @RequestParam(required=false, defaultValue="") String description,
+        @RequestParam(required=false, defaultValue="") String followers,
+        @RequestParam(required=false, defaultValue="") String owner,
+        @RequestParam(required=false, defaultValue="") String songCount,
+        Model model) throws Exception {
+
         System.out.println(getId("https://open.spotify.com/playlist/6u6L0UwiSB3fZjuABeMTlW?si=cc5cf848fe7243f2"));
 
         String id = getId(link);
@@ -76,7 +84,21 @@ public class Stats {
 
         System.out.println(data);
 
-        System.out.println("Description: " + getInfo("description", data));
+        JSONObject obj = new JSONObject(data);
+
+        name = getInfo("name", data);
+        image = obj.getJSONArray("images").getJSONObject(0).getString("url");
+        description = getInfo("description", data);
+        followers = Integer.toString(obj.getJSONObject("followers").getInt("total"));
+        owner = obj.getJSONObject("owner").getString("display_name");
+        songCount = Integer.toString(obj.getJSONObject("tracks").getInt("total"));
+
+        System.out.println("Name: " + name);
+        System.out.println("Image: " + image);
+        System.out.println("Description: " + description);
+        System.out.println("Followers: " + followers);
+        System.out.println("Owner: " + owner);
+        System.out.println("Song Count: " + songCount);
 
         model.addAttribute("link", link);
         return "stats";

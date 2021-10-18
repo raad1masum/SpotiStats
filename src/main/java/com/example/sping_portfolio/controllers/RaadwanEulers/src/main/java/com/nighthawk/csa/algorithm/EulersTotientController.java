@@ -1,4 +1,5 @@
-import com.nighthawk.csa.algorithm.eulersTotientModel.*;
+package com.example.sping_portfolio.controllers.RaadwanEulers.src.main.java.com.nighthawk.csa.algorithm;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.example.sping_portfolio.controllers.RaadwanEulers.src.main.java.com.nighthawk.csa.algorithm.eulersTotientModel.*;
 
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class EulersTotientController {

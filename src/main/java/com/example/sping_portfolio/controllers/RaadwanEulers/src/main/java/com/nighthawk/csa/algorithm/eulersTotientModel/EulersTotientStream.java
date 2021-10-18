@@ -1,3 +1,5 @@
+package com.example.sping_portfolio.controllers.RaadwanEulers.src.main.java.com.nighthawk.csa.algorithm.eulersTotientModel;
+
 // import java.util.stream.Stream;
 import java.util.ArrayList;
 

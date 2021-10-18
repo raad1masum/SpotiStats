@@ -1,13 +1,16 @@
-import com.nighthawk.csa.consoleUI.ConsoleMethods;
+package com.example.sping_portfolio.controllers.RaadwanEulers.src.main.java.com.nighthawk.csa.algorithm.eulersTotientModel;
+
 
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import lombok.Getter;
+import com.example.sping_portfolio.controllers.RaadwanEulers.src.main.java.com.nighthawk.csa.consoleUI.ConsoleMethods;
 
-@Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" 
+// import lombok.Getter;
+
+// @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" 
 public abstract class _EulersTotient {
     int size;
     String name;

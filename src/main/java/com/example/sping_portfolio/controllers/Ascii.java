@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.io.ByteArrayInputStream;
 
 import javax.imageio.ImageIO;
@@ -22,9 +20,6 @@ public class Ascii {
         StringBuilder out = new StringBuilder();
         char[] charList = {' ', '`', '\'', '.', '-', '_', ',', '"', ':', '!', '=', '~', ';', '>', '+', '<', '^', '*', 'r', ')', '(', '?', '|', '/', '\\', 'v', 'x', ']', '[', 'i', 'L', '7', 'Y', '}', '{', 'T', 'l', '1', 'u', 'n', 'c', 'V', 'y', 'w', 'J', '2', 'k', 'z', 't', 'C', 'j', 'o', 'X', 'F', 'I', 'h', '4', 'U', 's', 'e', 'm', 'f', 'K', 'a', '3', 'P', 'H', 'G', 'W', 'A', 'q', 'p', 'S', '%', '5', 'M', 'Z', 'b', 'd', 'O', 'N', '6', '9', 'R', 'E', 'D', '0', '&', '$', 'g', '8', 'Q', 'B', '#', '@'};
 
-        File f = new File(file);
-
-        BufferedImage img = ImageIO.read(f);
         ImageInfo imageinfo = new ImageInfo(path, "http://localhost:8080/" + path, 1);
         String imagedata = imageinfo.grayscale();
 

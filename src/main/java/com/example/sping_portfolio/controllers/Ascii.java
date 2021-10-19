@@ -53,7 +53,6 @@ public class Ascii {
                     }
 
                     avgGray /= cnt;
-                    // System.out.println("avg " + avgGray);
                     out.append(charList[avgGray]);
                 }
             }

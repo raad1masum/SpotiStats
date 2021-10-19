@@ -7,12 +7,20 @@
   <title>ASCII Art Generator</title>
   <link rel="stylesheet" type="text/css" href="/css/greet.css">
   <!-- End of head content specific to page -->
+  <style>
+    html {
+      background: white;
+    }
+    body {
+      background-color: white;
+    }
+  </style>
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
-    <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
+    <!-- <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
     <script src="/static/vanta/vanta.waves.min.js" th:src="@{/vanta/vanta.waves.min.js}"></script>
     <script>
     VANTA.WAVES({
@@ -29,7 +37,8 @@
       waveSpeed: 0.75,
       zoom: 0.86
     })
-    </script>
+    </script> -->
+    <pre th:text="${asciiart}"></pre>
       <!-- <div class="greet-content">
         <form action="/greet" method="GET" id="greetForm">
           <div class="greet-form">

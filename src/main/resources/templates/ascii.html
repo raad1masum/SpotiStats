@@ -20,52 +20,9 @@
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
-    <!-- <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
-    <script src="/static/vanta/vanta.waves.min.js" th:src="@{/vanta/vanta.waves.min.js}"></script>
-    <script>
-    VANTA.WAVES({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x0,
-      waveHeight: 23.50,
-      waveSpeed: 0.75,
-      zoom: 0.86
-    })
-    </script> -->
-    <pre th:text="${asciiart}"></pre>
-      <!-- <div class="greet-content">
-        <form action="/greet" method="GET" id="greetForm">
-          <div class="greet-form">
-          <p for="greetField">Type in your name:</p>
-          <br />
-          <input name="name" id="greetField">
-          <br />
-          <button>Greetings!</button>
-          <br />
-          <p th:text="'Greetings, ' + ${name} + '!'"></p>
-          </div>
-        </form>
-      </div>
 
-      <div class="calculator-div">
-        <form action="/greet" method="GET" id="calculatorForm">
-          <div class="calculator-form">
-            <p>Square a Number:</p>
-            <br />
-            <input name="number" id="calculatorField">
-            <br />
-            <button>Calculate</button>
-            <br />
-            <p th:text="'Answer: ' + ${number}"></p>
-          </div>
-        </form>
-      </div> -->
+    <pre th:text="${asciiart}"></pre>
+
   </div>
   <!-- End of body content specific to page -->
 </div></body>

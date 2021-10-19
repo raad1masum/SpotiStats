@@ -27,8 +27,9 @@ public class Ascii {
         byte[] imageBytes = DatatypeConverter.parseBase64Binary(base64Image);
         BufferedImage grayscaleImg = ImageIO.read(new ByteArrayInputStream(imageBytes));
 
-        File outputfile = new File("saved.png");
-        ImageIO.write(grayscaleImg, "png", outputfile);
+        // save image
+        // File outputfile = new File("saved.png");
+        // ImageIO.write(grayscaleImg, "png", outputfile);
 
         int adjust = 2;
 

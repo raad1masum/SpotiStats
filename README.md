@@ -22,7 +22,8 @@ The overall idea of our project is a music playlist analyzer. Any user can input
 ---
 
 ## Week 8 PBL Team
-### [Review Ticket](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/40)
+### [Review Ticket and In-Class Presentation Notes + Grading](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/40)
+### [Review Ticket 8 and Grading for Presentation, ASCii, Jorunnal](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/40)
 
 ---
 

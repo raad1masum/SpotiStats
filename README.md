@@ -4,6 +4,7 @@
 The overall idea of our project is a music playlist analyzer. Any user can input a link to their spotify playlist and recieve statistics about it.
 
 ## Timebox
+**[INDIVIDUAL FINAL PART 1](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/45)**
 | Name | Github Username | Github Profile | Issue | Journals | Commits |
 | - | - | - | - | - | - |
 | Rishi Peddakama | rpeddakama | [@rpeddakama](https://github.com/rpeddakama) | [Issues](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/rpeddakama) | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=rpeddakama) |

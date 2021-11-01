@@ -118,7 +118,7 @@ public class Stats {
         System.out.println("Followers: " + followers);
         System.out.println("Owner: " + owner);
         System.out.println("Song Count: " + songCount);
-        System.out.println("Explicit Percentage: " + explicitPercentage + "%");
+        System.out.println("Explicit Percentage: " + explicitPercentage);
 
         model.addAttribute("link", link);
         model.addAttribute("name", name);

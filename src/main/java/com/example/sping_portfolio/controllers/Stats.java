@@ -13,6 +13,7 @@ import java.net.*;
 import java.nio.charset.StandardCharsets;
 import java.util.stream.Collectors;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 @Controller
@@ -64,6 +65,22 @@ public class Stats {
         JSONObject obj = new JSONObject(data);
 
         return obj.getString(info);
+    }
+
+    public double getExplicitPercent(JSONObject obj) {
+        JSONArray tracks = obj.getJSONObject("tracks").getJSONArray("items");
+
+        double count = 0;
+        double total = tracks.length();
+
+        for (int i = 0; i < tracks.length(); i++) {
+            if (tracks.getJSONObject(i).getJSONObject("track").getBoolean("explicit"))
+                ++count;
+        }
+
+        double percent = count / total * 100;
+
+        return Math.round(percent * 100.0) / 100.0;
     }
 
     @GetMapping("/stats")

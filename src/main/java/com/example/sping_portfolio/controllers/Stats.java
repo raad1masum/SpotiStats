@@ -31,7 +31,7 @@ public class Stats {
 
         connection.setDoOutput(true);
         connection.setRequestProperty("Accept-Charset", "UTF-8");
-        connection.setRequestProperty("Authorization", "Basic NzVhOGQzOTU3NmMyNDRhYmIzYmM1OWJiY2VhZTNiNzY6MjgxOWQwMThkNmUxNGEwNGIyMTJjODQxOGI0YTBlZjI=");
+        connection.setRequestProperty("Authorization", "Basic NDQ5ZGM3NjJiZDg0NDBjMzkwOWQyZGZiMThkYzZmMjI6ZTQwMjFjMTk1Nzc2NDM2YTg0MzQxZDM5ZGQyMzBkN2M=");
         connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded;charset=" + "UTF-8");
 
         try (OutputStream output = connection.getOutputStream()) {

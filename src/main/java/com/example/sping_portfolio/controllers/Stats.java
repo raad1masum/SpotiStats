@@ -91,6 +91,7 @@ public class Stats {
         @RequestParam(required=false, defaultValue="") String followers,
         @RequestParam(required=false, defaultValue="") String owner,
         @RequestParam(required=false, defaultValue="") String songCount,
+        @RequestParam(required=false, defaultValue="") String explicitPercentage,
         Model model) throws Exception {
 
         System.out.println(getId("https://open.spotify.com/playlist/6u6L0UwiSB3fZjuABeMTlW?si=cc5cf848fe7243f2"));
@@ -109,6 +110,7 @@ public class Stats {
         followers = Integer.toString(obj.getJSONObject("followers").getInt("total"));
         owner = obj.getJSONObject("owner").getString("display_name");
         songCount = Integer.toString(obj.getJSONObject("tracks").getInt("total"));
+        explicitPercentage = Double.toString(getExplicitPercent(obj)) + "%";
 
         System.out.println("Name: " + name);
         System.out.println("Image: " + image);
@@ -116,6 +118,7 @@ public class Stats {
         System.out.println("Followers: " + followers);
         System.out.println("Owner: " + owner);
         System.out.println("Song Count: " + songCount);
+        System.out.println("Explicit Percentage: " + explicitPercentage + "%");
 
         model.addAttribute("link", link);
         model.addAttribute("name", name);
@@ -124,6 +127,7 @@ public class Stats {
         model.addAttribute("followers", followers);
         model.addAttribute("owner", owner);
         model.addAttribute("songCount", songCount);
+        model.addAttribute("explicitPercentage", explicitPercentage);
         return "stats";
     }
 }

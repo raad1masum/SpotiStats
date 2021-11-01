@@ -105,6 +105,7 @@ p {
   color: white;
   font-size: 20px;
   transition: 0.3s;
+  margin: 0;
 }
 
 td {
@@ -112,7 +113,7 @@ td {
   color: white;
   font-size: 20px;
   border-right: 40px solid transparent;
-  border-top: 10px solid transparent;
+  border-bottom: 20px solid transparent;
   transition: 0.3s;
 }
 

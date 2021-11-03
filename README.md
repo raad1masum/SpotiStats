@@ -4,7 +4,6 @@
 The overall idea of our project is a music playlist analyzer. Any user can input a link to their spotify playlist and recieve statistics about it.
 
 ## Timebox
-**[INDIVIDUAL FINAL PART 1](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/45)**
 | Name | Github Username | Github Profile | Issue | Journals | Commits |
 | - | - | - | - | - | - |
 | Rishi Peddakama | rpeddakama | [@rpeddakama](https://github.com/rpeddakama) | [Issues](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/assigned/rpeddakama) | [Journal](https://docs.google.com/document/d/1vxzWnE3vU9BzimUlZjcTz79fNOBTLcT7G4B1LLMhNEw/edit?usp=sharing) | [Commits](https://github.com/raad1masum/AP-CSA-Tri-1-Project/commits?author=rpeddakama) |
@@ -14,6 +13,8 @@ The overall idea of our project is a music playlist analyzer. Any user can input
 
 ## HISTORY
 
+- [Week 10](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-10-pbl-team)
+- [Week 9](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-9-pbl-team)
 - [Week 8](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-8-pbl-team)
 - [Week 7](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-7-pbl-team)
 - [Week 4](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-4-pbl-team)
@@ -21,6 +22,13 @@ The overall idea of our project is a music playlist analyzer. Any user can input
 - [Week 1-2](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-1-2-pbl-team)
 
 ---
+
+## Week 10 PBL Team
+todo
+
+## Week 9 PBL Team
+**[INDIVIDUAL FINAL PART 1](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/45)**
+
 
 ## Week 8 PBL Team
 ### [Review Ticket and In-Class Presentation Notes + Grading](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/40)

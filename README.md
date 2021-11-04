@@ -13,6 +13,11 @@ You will then get stats about your playlist:
 ![image](https://user-images.githubusercontent.com/39575185/140269330-58025701-ef92-40a2-94b5-39666fb36d77.png)
 
 ## Running Locally
+### Requirements
+- THymeleaf
+- jdk >8
+- Optional - vscode for automatic  refreshing
+
 Simply run [Main.java](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/src/main/java/com/example/sping_portfolio/Main.java)
 
 Navigate to [localhost:8080](http://localhost:8080/) to view the running website

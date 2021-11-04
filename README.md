@@ -1,21 +1,10 @@
-# SpotiStats
-> Quickly get information about your Spotify playlists.
-
-## Usage
-Navigate to [here](http://54.219.237.101/)
-
-You wil have to copy the playlist link:
-
-![image](https://user-images.githubusercontent.com/39575185/140268659-6d97deba-7fe6-47ed-a638-d7b3ec1072dd.png)
-
-You will then get stats about your playlist:
-
-![image](https://user-images.githubusercontent.com/39575185/140269330-58025701-ef92-40a2-94b5-39666fb36d77.png)
-
 # CSA-Tri-1-Project: 🔴Red Team🔴
 
 ## Ideation
 The overall idea of our project is a music playlist analyzer. Any user can input a link to their spotify playlist and recieve statistics about it.
+
+## Purpose
+It's important for people realize their music tastes as they are a reflection of emotions. Knowing one's emotions is essential for self-reflection and improvement. We hope to do that with this project.
 
 ## Timebox
 | Name | Github Username | Github Profile | Issue | Journals | Commits |

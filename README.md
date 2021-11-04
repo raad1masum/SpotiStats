@@ -26,7 +26,7 @@ java -jar target/serving-web-content-0.0.1-SNAPSHOT.jar
 The overall idea of our project is a music playlist analyzer. Any user can input a link to their spotify playlist and recieve statistics about it such as explicit percent, image, discription, and followers.
 
 ## Purpose
-It's important for people realize their music tastes as they are a reflection of emotions. Knowing one's emotions is essential for self-reflection and improvement. We hope to do that with this project.
+This project gives people an opportunity to better understand what music they are listening to and the details about the playlist. They can share this information to others and compare playlists. It's also important for people realize their music tastes as they are a reflection of emotions. Knowing one's emotions is essential for self-reflection and improvement. We hope to do that with this project.
 
 ## Timebox
 | Name | Github Username | Github Profile | Issue | Journals | Commits |

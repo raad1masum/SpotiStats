@@ -22,8 +22,6 @@ Navigate to [localhost:8080](http://localhost:8080/) to view the running website
 java -jar target/serving-web-content-0.0.1-SNAPSHOT.jar
 ```
 
-# CSA-Tri-1-Project: 🔴Red Team🔴
-
 ## Ideation
 The overall idea of our project is a music playlist analyzer. Any user can input a link to their spotify playlist and recieve statistics about it.
 

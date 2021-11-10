@@ -60,7 +60,11 @@ This project gives people an opportunity to better understand what music they ar
 ![image](https://user-images.githubusercontent.com/55494721/141182188-0d36b595-1fa4-4cb1-aec8-4eda1ee3824f.png)
 
 ### Retrospective Reflections
-todo
+Links to GeekBot responses for each person
+[Rishi](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636514717036700)
+[Arnav](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636521034037200)
+[Aman](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636562008038200)
+[Raadwan](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636573900042400)
 
 ## Week 10 PBL Team
 Presented N@TM Project

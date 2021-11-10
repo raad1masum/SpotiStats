@@ -43,7 +43,7 @@ This project gives people an opportunity to better understand what music they ar
 
 ## HISTORY
 
-- [Finals Day](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#n@tm)
+- [Finals Day](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#ntm)
 - [Week 10](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-10-pbl-team)
 - [Week 9](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-9-pbl-team)
 - [Week 8](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-8-pbl-team)

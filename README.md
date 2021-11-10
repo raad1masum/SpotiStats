@@ -57,8 +57,17 @@ This project gives people an opportunity to better understand what music they ar
 ### Visuals from other classes (tAnGiBlEs of rugged people)
 
 ![image](https://user-images.githubusercontent.com/55494721/141181662-7d056794-39c6-432b-81c2-e947d0529fbe.png)
+<br>
+Image of group in art classroom
+<br>
+
 ![image](https://user-images.githubusercontent.com/55494721/141181521-7961a155-3dd6-4701-bf5a-623b531db6cb.png)
+<br>
+Cool Art
+<br>
 ![image](https://user-images.githubusercontent.com/55494721/141182188-0d36b595-1fa4-4cb1-aec8-4eda1ee3824f.png)
+<br>
+Us presenting to other people, showing their interaction with our project and software
 
 ### Retrospective Reflections
 Links to GeekBot responses for each person

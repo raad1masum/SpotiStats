@@ -52,9 +52,18 @@ This project gives people an opportunity to better understand what music they ar
 - [Week 1-2](https://github.com/raad1masum/AP-CSA-Tri-1-Project/blob/main/README.md#week-1-2-pbl-team)
 
 ---
+## N@TM
+### Visuals from other classes (tAnGiBlEs of rugged people)
+
+![image](https://user-images.githubusercontent.com/55494721/141181662-7d056794-39c6-432b-81c2-e947d0529fbe.png)
+![image](https://user-images.githubusercontent.com/55494721/141181521-7961a155-3dd6-4701-bf5a-623b531db6cb.png)
+![image](https://user-images.githubusercontent.com/55494721/141182188-0d36b595-1fa4-4cb1-aec8-4eda1ee3824f.png)
+
+### Retrospective Reflections
+todo
 
 ## Week 10 PBL Team
-todo
+Presented N@TM Project
 
 ## Week 9 PBL Team
 **[INDIVIDUAL FINAL PART 1](https://github.com/raad1masum/AP-CSA-Tri-1-Project/issues/45)**
